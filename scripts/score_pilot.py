@@ -11,18 +11,51 @@ import csv
 import json
 import re
 from collections import Counter, defaultdict
-from difflib import SequenceMatcher
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CATS = ["correct", "no_call", "wrong_tool", "wrong_lang_arg", "roman_leak", "wrong_value", "format_break", "other"]
 BANGLA = re.compile("[ঀ-৿]")
-STRICT_RE = re.compile(r"^<tool_call>\s*(\{.*\})\s*</tool_call>$", re.S)
-TAG_RE = re.compile(r"<tool_call>(.*?)(?:</tool_call>|$)", re.S)
+# strict = the whole output is one call, in any of the formats our models use natively:
+# Qwen <tool_call>{..}</tool_call>, a code-fenced JSON block, or bare JSON (Llama / Gemma)
+STRICT_RES = [
+    re.compile(r"^<tool_call>\s*(\{.*\})\s*</tool_call>$", re.S),
+    re.compile(r"^```(?:json)?\s*(\{.*\})\s*```$", re.S),
+    re.compile(r"^(\{.*\})$", re.S),
+]
+SPECIAL_TOKENS = ["<|im_end|>", "<|endoftext|>", "<|eot_id|>", "<|eom_id|>", "<|end_of_text|>",
+                  "<|python_tag|>", "<end_of_turn>", "<eos>"]
 
 
 def clean(raw):
-    return raw.replace("<|im_end|>", "").replace("<|endoftext|>", "").strip()
+    for t in SPECIAL_TOKENS:
+        raw = raw.replace(t, "")
+    return raw.strip()
+
+
+def edit_distance(a, b):
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i]
+        for j, cb in enumerate(b, 1):
+            cur.append(min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb)))
+        prev = cur
+    return prev[-1]
+
+
+def skeleton(s):
+    """lowercase, accents removed, letters and digits only"""
+    s = unicodedata.normalize("NFKD", s)
+    return re.sub(r"[^a-z0-9]", "", "".join(c for c in s if not unicodedata.combining(c)).lower())
+
+
+def close_variant(pred, gold):
+    """roman_leak rule: pred is the gold value with a small spelling change (Sidney vs Sydney).
+    Allowed: edit distance <= max(1, 20% of gold length) on accent-stripped, lowercased letters/digits,
+    gold at least 4 characters. A different name (Amine vs Eminem: 2 edits, limit 1) is not a variant."""
+    p, g = skeleton(pred), skeleton(gold)
+    return len(g) >= 4 and edit_distance(p, g) <= max(1, round(0.2 * len(g)))
 
 
 def first_json_call(text):
@@ -58,7 +91,7 @@ def same(pred, accepted):
 
 
 def score_call(call, gt, schema_params):
-    name, args = call.get("name"), call.get("arguments")
+    name, args = call.get("name"), call.get("arguments", call.get("parameters"))  # Llama 3.1 uses "parameters"
     if not isinstance(name, str) or not isinstance(args, dict):
         return "other"
     if name != gt["name"]:
@@ -82,8 +115,7 @@ def score_call(call, gt, schema_params):
         if isinstance(pred, str) and BANGLA.search(pred):
             mark("wrong_lang_arg")
         elif isinstance(pred, str) and re.search("[A-Za-z]{2}", pred) and any(
-            isinstance(a, str) and re.search("[A-Za-z]{2}", a) and (
-                SequenceMatcher(None, norm(pred), norm(a)).ratio() >= 0.5 or norm(a) in norm(pred) or norm(pred) in norm(a))
+            isinstance(a, str) and re.search("[A-Za-z]{2}", a) and close_variant(pred, a)
             for a in accepted
         ):
             mark("roman_leak")
@@ -97,13 +129,16 @@ def score_call(call, gt, schema_params):
 
 def label_output(raw, gt, mode):
     text = clean(raw)
-    m = STRICT_RE.match(text)
     strict_call = None
-    if m:
-        try:
-            strict_call = json.loads(m.group(1))
-        except ValueError:
-            strict_call = None
+    for rx in STRICT_RES:
+        m = rx.match(text)
+        if m:
+            try:
+                obj = json.loads(m.group(1))
+                strict_call = obj if isinstance(obj, dict) else None
+            except ValueError:
+                strict_call = None
+            break
     if mode == "strict":
         if strict_call is not None:
             return score_call(strict_call, gt, None)

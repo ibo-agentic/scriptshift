@@ -1,12 +1,19 @@
-"""Score pilot outputs. One label per output, two ways:
+"""Score pilot outputs. One label per output, scored along two independent switches:
 
-strict  - the whole output must be only the call (<tool_call>{json}</tool_call>); anything else
-          that still contains a call is labelled format_break.
-lenient - take the first JSON call found anywhere in the text and score it.
+Output format
+  strict  - the whole output must be only the call (<tool_call>{json}</tool_call>, a code-fenced JSON block,
+            or bare JSON); anything else that still contains a call is labelled format_break.
+  lenient - take the first JSON call found anywhere in the text and score it.
+
+Value typing
+  norm    - PRIMARY. String-encoded values are converted before comparing: "7" -> 7, "true" -> true,
+            '["a","b"]' -> ["a","b"]. (Llama 3.1 writes every value as a string.)
+  typed   - SECONDARY. BFCL-style: the value must have the right type as written.
 
 Labels: correct | no_call | wrong_tool | wrong_lang_arg | roman_leak | wrong_value | format_break | other
 """
 import argparse
+import ast
 import csv
 import json
 import re
@@ -78,7 +85,8 @@ def norm(v):
     return v
 
 
-def same(pred, accepted):
+def same_typed(pred, accepted):
+    """BFCL-style typing: "7" is not 7, "true" is not true, '["a"]' is not ["a"]."""
     for a in accepted:
         if isinstance(pred, (int, float)) and isinstance(a, (int, float)) and not isinstance(pred, bool):
             if float(pred) == float(a):
@@ -90,7 +98,40 @@ def same(pred, accepted):
     return False
 
 
-def score_call(call, gt, schema_params):
+def coerce(v):
+    """Undo string-encoding of values: "7" -> 7, "true" -> True, '["a","b"]' and "['a','b']" -> ["a","b"]
+    (recursive in lists).
+    Anything that does not parse to a non-string JSON value is returned unchanged."""
+    if isinstance(v, list):
+        return [coerce(x) for x in v]
+    if isinstance(v, str):
+        s = v.strip()
+        if s.lower() in ("true", "false"):
+            return s.lower() == "true"
+        try:
+            parsed = json.loads(s)
+        except ValueError:
+            if not (s.startswith("[") and s.endswith("]")):
+                return v
+            try:  # python-style list written as a string: "['a', 'b']"
+                parsed = ast.literal_eval(s)
+            except (ValueError, SyntaxError):
+                return v
+            if not isinstance(parsed, list):
+                return v
+        return coerce(parsed) if isinstance(parsed, list) else (v if isinstance(parsed, str) else parsed)
+    return v
+
+
+def same(pred, accepted, typing="norm"):
+    """typing="norm" (primary): compare the value as given OR with string-encoding undone.
+    typing="typed" (secondary): compare the value exactly as given."""
+    if same_typed(pred, accepted):
+        return True
+    return typing == "norm" and same_typed(coerce(pred), accepted)
+
+
+def score_call(call, gt, typing="norm"):
     name, args = call.get("name"), call.get("arguments", call.get("parameters"))  # Llama 3.1 uses "parameters"
     if not isinstance(name, str) or not isinstance(args, dict):
         return "other"
@@ -110,7 +151,7 @@ def score_call(call, gt, schema_params):
                 mark("wrong_value")
             continue
         pred = args[p]
-        if same(pred, accepted):
+        if same(pred, accepted, typing):
             continue
         if isinstance(pred, str) and BANGLA.search(pred):
             mark("wrong_lang_arg")
@@ -127,7 +168,7 @@ def score_call(call, gt, schema_params):
     return label or "correct"
 
 
-def label_output(raw, gt, mode):
+def label_output(raw, gt, mode, typing="norm"):
     text = clean(raw)
     strict_call = None
     for rx in STRICT_RES:
@@ -141,13 +182,13 @@ def label_output(raw, gt, mode):
             break
     if mode == "strict":
         if strict_call is not None:
-            return score_call(strict_call, gt, None)
+            return score_call(strict_call, gt, typing)
         # not exactly one clean call: is there anything call-like at all?
         return "format_break" if ("<tool_call>" in text or first_json_call(text)) else "no_call"
     call = strict_call or first_json_call(text)
     if call is None:
         return "format_break" if "<tool_call>" in text else "no_call"
-    return score_call(call, gt, None)
+    return score_call(call, gt, typing)
 
 
 def table(counts, forms, title):
@@ -172,21 +213,26 @@ def main():
 
     rows = [json.loads(l) for l in open(run, encoding="utf-8")]
     rows = [r for r in rows if r.get("type") == "row"]
-    counts = {m: defaultdict(Counter) for m in ("strict", "lenient")}
+    # column name -> (output format mode, value typing)
+    METRICS = {"strict": ("strict", "norm"), "lenient": ("lenient", "norm"),
+               "strict_typed": ("strict", "typed"), "lenient_typed": ("lenient", "typed")}
+    counts = {k: defaultdict(Counter) for k in METRICS}
     per_row = []
     for r in rows:
-        labs = {m: label_output(r["raw_output"], gts[r["item_id"]], m) for m in counts}
-        for m, l in labs.items():
-            counts[m][r["form"]][l] += 1
-        per_row.append({"item_id": r["item_id"], "form": r["form"], "strict": labs["strict"], "lenient": labs["lenient"]})
+        labs = {k: label_output(r["raw_output"], gts[r["item_id"]], mode, typing) for k, (mode, typing) in METRICS.items()}
+        for k, l in labs.items():
+            counts[k][r["form"]][l] += 1
+        per_row.append({"item_id": r["item_id"], "form": r["form"], **labs})
 
     forms = sorted({r["form"] for r in rows}, key=lambda f: ["en", "bn_native", "bn_roman", "bn_mixed", "bn_partial"].index(f))
-    table(counts["strict"], forms, "STRICT (whole output must be only the call)")
-    table(counts["lenient"], forms, "LENIENT (first JSON call in the text)")
+    table(counts["strict"], forms, "PRIMARY (types normalized) - STRICT format: whole output must be only the call")
+    table(counts["lenient"], forms, "PRIMARY (types normalized) - LENIENT format: first JSON call in the text")
+    table(counts["strict_typed"], forms, "SECONDARY (BFCL typing) - STRICT format")
+    table(counts["lenient_typed"], forms, "SECONDARY (BFCL typing) - LENIENT format")
 
     out_csv = run.with_suffix(".scores.csv")
     with open(out_csv, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=["item_id", "form", "strict", "lenient"])
+        w = csv.DictWriter(f, fieldnames=["item_id", "form", *METRICS])
         w.writeheader()
         w.writerows(per_row)
     print(f"\nper-row labels: {out_csv}")

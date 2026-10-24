@@ -1,0 +1,65 @@
+Examples use the PRIMARY metric (types normalized); format_break is the STRICT-format label.
+
+===== Qwen3-1.7B
+--- no_call (lenient; 21 rows)
+[simple_python_187 | bn_roman] 'The query seems to be a mix of languages and contains some unclear or incorrect information. "Washington" is a city in the United States, and "Seattle" is a city in Washington state, USA. There is no direct geographical relationship between Washington and Seattle in terms of being "bortoman tapmatra ar ardrota koto" (which translates to "far away from the coast" or "far from the sea"). \n\nIf you are asking about the weather in Seattle, I can provide that information. Would you like to know the current weather in Seattle?<|im_end|>'
+[simple_python_187 | bn_mixed] 'The query is a bit confusing. "Washington er Seattle" seems to be a mix of languages, and "current temperature ar humidity koto" is not clear. Could you please clarify your request?<|im_end|>'
+--- wrong_tool (lenient; 0 rows)
+--- wrong_lang_arg (lenient; 18 rows)
+[simple_python_186 | bn_native] '<tool_call>\n{"name": "current_weather_condition", "arguments": {"city": "টোকিও", "country": "জাপান", "measurement": "c"}}\n</tool_call><|im_end|>'
+[simple_python_187 | bn_partial] '<tool_call>\n{"name": "get_current_weather", "arguments": {"location": "Seattle-এ", "include_temperature": true, "include_humidity": true}}\n</tool_call><|im_end|>'
+--- roman_leak (lenient; 1 rows)
+[simple_python_377 | bn_native] '<tool_call>\n{"name": "get_current_time", "arguments": {"city": "Sidney", "country": "Australia"}}\n</tool_call><|im_end|>'
+--- wrong_value (lenient; 16 rows)
+[simple_python_196 | bn_native] '<tool_call>\n{"name": "air_quality", "arguments": {"location": "London", "date": "2022/08/16"}}\n</tool_call><|im_end|>'
+[simple_python_196 | bn_roman] '<tool_call>\n{"name": "air_quality", "arguments": {"location": "London", "date": "2022/08/16"}}\n</tool_call><|im_end|>'
+--- format_break (strict; 3 rows)
+[simple_python_33 | bn_roman] 'The user is asking for directions from Sydney to Melbourne. They mentioned "shobcheye drutotomo poth dhore Sydney theke Melbourne jaowar diknirdeshona dekhao," which translates to "Please show me the directions from Sydney to Melbourne." \n\nI will call the `get_directions` function with the start location as "Sydney" and the end location as "Melbourne". The route type is not specified, so I will use the default "fastest" route type.\n\n<tool_call>\n{"name": "get_directions", "arguments": {"start_location": "Sydney", "end_location": "Melbourne", "route_type": "fastest"}}\n</tool_call><|im_end|>'
+[simple_python_273 | bn_mixed] 'I can see that you\'re asking about the open hours of the Louvre Museum in Paris. Let me check that for you.\n\n<tool_call>\n{"name": "museum.get_hours", "arguments": {"name": "Louvre Museum", "location": "Paris"}}\n</tool_call><|im_end|>'
+--- other (lenient; 0 rows)
+
+===== Qwen3-4B
+--- no_call (lenient; 14 rows)
+[simple_python_187 | bn_roman] "It seems there might be a language barrier or a typo in your question. Could you please clarify or rephrase your query? I'm here to help!<|im_end|>"
+[simple_python_187 | bn_mixed] 'I will retrieve the current temperature and humidity for Seattle.<|im_end|>'
+--- wrong_tool (lenient; 0 rows)
+--- wrong_lang_arg (lenient; 26 rows)
+[simple_python_186 | bn_native] '<tool_call>\n{"name": "current_weather_condition", "arguments": {"city": "টোকিও", "country": "জাপান", "measurement": "c"}}\n</tool_call><|im_end|>'
+[simple_python_187 | bn_native] '<tool_call>\n{"name": "get_current_weather", "arguments": {"location": "সিঅ্যাটল", "include_temperature": true, "include_humidity": true}}\n</tool_call><|im_end|>'
+--- roman_leak (lenient; 0 rows)
+--- wrong_value (lenient; 9 rows)
+[simple_python_205 | bn_roman] '<tool_call>\n{"name": "get_traffic_info", "arguments": {"start_location": "Garite Kore", "end_location": "Boston", "mode": "driving"}}\n</tool_call><|im_end|>'
+[simple_python_303 | bn_mixed] '<tool_call>\n{"name": "soccer_stat.get_player_stats", "arguments": {"player_name": "Cristiano Ronaldo", "season": "2019-2020", "league": "all"}}\n</tool_call><|im_end|>'
+--- format_break (strict; 2 rows)
+[simple_python_196 | bn_mixed] 'The user is asking for the air quality index in London on August 16, 2022. I need to call the air_quality function with the location set to "London" and the date set to "08-16-2022". \n\nFirst, I check the function parameters. The location is a string, and the date is in the format month-day-year. The user provided the date as 2022/08/16, which I need to convert to 08-16-2022 to match the required format.\n\nNext, I ensure that both parameters are included in the function call. The location is "London", and the date is "08-16-2022". \n\nI then construct the JSON object for the tool call with these parameters. This should retrieve the air quality index for London on the specified date.\n<tool_call>\n{"name": "air_quality", "arguments": {"location": "London", "date": "08-16-2022"}}\n</tool_call><|im_end|>'
+[simple_python_394 | bn_roman] 'The user is asking for the travel distance and estimated travel time from the Eiffel Tower to the Louvre Museum, considering current traffic conditions. I will call the `maps.get_distance_duration` function with the start location as "Eiffel Tower" and the end location as "Louvre Museum", and set the traffic parameter to true to consider current traffic. \n\nHere is the function call:\n<tool_call>\n{"name": "maps.get_distance_duration", "arguments": {"start_location": "Eiffel Tower", "end_location": "Louvre Museum", "traffic": true}}\n</tool_call><|im_end|>'
+--- other (lenient; 0 rows)
+
+===== Gemma-3-4B
+--- no_call (lenient; 2 rows)
+[simple_python_187 | bn_roman] 'I need the location to get the weather information for Seattle. Could you please provide the city name?<end_of_turn>'
+[simple_python_188 | bn_roman] 'I am sorry, I cannot fulfill this request. The provided text is not a clear question about weather forecasting. It appears to be a jumbled string of words. To provide a weather forecast, I need a specific request, such as "What is the humidity forecast for Miami, Florida for the next 7 days?".<end_of_turn>'
+--- wrong_tool (lenient; 0 rows)
+--- wrong_lang_arg (lenient; 8 rows)
+[simple_python_203 | bn_native] '{"name": "get_air_quality", "arguments": {"location": "শিকাগো"}}<end_of_turn>'
+[simple_python_33 | bn_native] '{"name": "get_directions", "arguments": {"start_location": "সিডনি", "end_location": "মেলবোর্ন", "route_type": "fastest"}}<end_of_turn>'
+--- roman_leak (lenient; 0 rows)
+--- wrong_value (lenient; 21 rows)
+[simple_python_196 | bn_native] '```json\n{"name": "air_quality", "arguments": {"location": "London", "date": "2022-08-16"}}\n```<end_of_turn>'
+[simple_python_196 | bn_roman] '{"name": "air_quality", "arguments": {"location": "London", "date": "2022-08-16"}}<end_of_turn>'
+--- format_break (strict; 0 rows)
+--- other (lenient; 0 rows)
+
+===== Llama-3.1-8B
+--- no_call (lenient; 0 rows)
+--- wrong_tool (lenient; 0 rows)
+--- wrong_lang_arg (lenient; 17 rows)
+[simple_python_187 | bn_native] '<|python_tag|>{"name": "get_current_weather", "parameters": {"location": "ওয়াশিংটনের সিঅ্যাটল", "include_temperature": "true", "include_humidity": "true"}}<|eom_id|>'
+[simple_python_188 | bn_native] '<|python_tag|>{"name": "weather.humidity_forecast", "parameters": {"location": "ফ্লোরিডা, মায়ামি", "days": "7", "min_humidity": "0"}}<|eom_id|>'
+--- roman_leak (lenient; 1 rows)
+[simple_python_286 | bn_native] '<|python_tag|>{"name": "concert.get_details", "parameters": {"artist": "Beyonc\\u00e9", "location": "San Diego", "date": "04-2022"}}<|eom_id|>'
+--- wrong_value (lenient; 24 rows)
+[simple_python_196 | bn_mixed] '<|python_tag|>{"name": "air_quality", "parameters": {"location": "London", "date": "2022/08/16"}}<|eom_id|>'
+[simple_python_196 | bn_partial] '<|python_tag|>{"name": "air_quality", "parameters": {"location": "London", "date": "2022/08/16"}}<|eom_id|>'
+--- format_break (strict; 0 rows)
+--- other (lenient; 0 rows)

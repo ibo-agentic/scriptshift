@@ -1,0 +1,142 @@
+You are helping build a research dataset. For each English request below, write it in 4 Bangla forms. Same meaning in all 4. Every value under "Must keep" must appear.
+
+FORMS:
+1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
+4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
+
+RULES:
+- Write like a real person asking an assistant, not a word-for-word translation.
+- Do not add or remove any information.
+- NO EXTRA ANSWER: a value may appear only in the form and wording the English request uses. If English writes a number as a word ("three"), keep it a word (তিন / tin / three). If English writes digits, use English digits 0-9. Never change capital letters, date formats, or words to match the "Must keep" list. Never add a word that is not in the English request.
+- Output ONLY a tab-separated table with columns: item_id, bn_native, bn_roman, bn_mixed, bn_partial
+- One row per item, no extra text.
+
+EXAMPLE:
+English: What is the weather in Dhaka today? | Must keep: city = Dhaka
+EXAMPLE	আজ ঢাকার আবহাওয়া কেমন?	aaj dhakar abohawa kemon?	aaj Dhaka te weather kemon?	আজ Dhaka-র আবহাওয়া কেমন?
+
+ITEMS
+
+(batch 02: 40 items)
+
+item_id: simple_python_78
+English: Get the average temperature in Austin for the next 3 days in Celsius. | Must keep: location = Austin; days = 3; temp_unit = Celsius
+
+item_id: multiple_169
+English: What is the musical scale associated with C sharp major? | Must keep: key = C sharp
+
+item_id: simple_python_55
+English: Find me detailed information about the structure of human cell | Must keep: cell_type = human
+
+item_id: multiple_78
+English: Get me information about Natural History Museum in London including timings, exhibitions, and accessibility. | Must keep: museum = Natural History Museum; city = London; features = timings, exhibitions, accessibility
+
+item_id: simple_python_179
+English: Find the latest court case between Apple and Samsung occured in USA. | Must keep: company1 = Apple; company2 = Samsung
+
+item_id: multiple_45
+English: Calculate how many years ago was the Ice age? | Must keep: era_name = Ice age
+
+item_id: simple_python_85
+English: What's the approximate distance between Boston, MA, and Washington, D.C. in mile? | Must keep: start_location = Boston, MA; end_location = Washington, D.C.
+
+item_id: simple_python_218
+English: Given patient with id 546382, retrieve their brain MRI report with the status 'concluded'. | Must keep: patient_id = 546382; status = concluded
+
+item_id: multiple_93
+English: Book a deluxe room for 2 nights at the Marriott hotel in New York and add breakfast as an extra service | Must keep: location = New York; roomType = deluxe; nights = 2; additional_services = breakfast
+
+item_id: simple_python_213
+English: Book a direct flight from San Francisco to London for 2022-04-27 afternoon | Must keep: departure_location = San Francisco; destination_location = London; date = 2022-04-27
+
+item_id: multiple_155
+English: Who discovered the neutron? Give me detail information. | Must keep: discovery = neutron
+
+item_id: simple_python_284
+English: Get information about the pop concerts in New York for next month. | Must keep: location = New York; date = next month; genre = pop
+
+item_id: multiple_82
+English: Play a song in C Major key at tempo 120 bpm. | Must keep: key = C Major; tempo = 120
+
+item_id: simple_python_54
+English: Identify the protein sequence of a given human gene 'BRCA1'. | Must keep: gene = BRCA1
+
+item_id: simple_python_160
+English: Who was the victim in the case docket numbered 2022/AL2562 in California? | Must keep: docket = 2022/AL2562; court = California; info_type = victim
+
+item_id: multiple_187
+English: Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles. | Must keep: location = Los Angeles; items = tomatoes, lettuce
+
+item_id: simple_python_147
+English: Retrieve stock prices of Microsoft and Google for the last 2 weeks. | Must keep: companies = Microsoft, Google; duration = 2 weeks
+
+item_id: multiple_184
+English: Give me a recipe for a vegetarian pasta with cheese for 2 servings. | Must keep: dietary_restriction = vegetarian; ingredients = pasta, cheese; servings = 2
+
+item_id: simple_python_331
+English: Find the top chess players in New York with a rating above 2300. | Must keep: location = New York; minimum_rating = 2300
+
+item_id: simple_python_340
+English: Determine the winner in a Poker game with John having a Hand of 8♥, 10♥, J♥, Q♥, K♥ and Mike having 9♠, J♠, 10♠, Q♠, K♠. | Must keep: player1 = John; hand1 = 8♥, 10♥, J♥, Q♥, K♥; player2 = Mike; hand2 = 9♠, J♠, 10♠, Q♠, K♠
+
+item_id: multiple_188
+English: Find the grocery store closest to Berkeley that has at least a 4.5 star rating, selling tomatoes and also pet food. | Must keep: my_location = Berkeley; rating = 4.5; products = tomatoes, pet food
+
+item_id: simple_python_47
+English: Find the boiling point and melting point of water under the sea level of 5000m. | Must keep: substance = water; sea_level = 5000
+
+item_id: multiple_170
+English: Get the player stats of Cristiano Ronaldo in the 2019-2020 season | Must keep: player_name = Cristiano Ronaldo; season = 2019-2020
+
+item_id: simple_python_364
+English: Can I find an Italian restaurant with Gluten-free options near Brooklyn? | Must keep: location = Brooklyn; type = Italian; diet_option = Gluten-free
+
+item_id: multiple_43
+English: What is the energy produced by 5 mol of glucose (C6H12O6)? | Must keep: mols = 5; substance = C6H12O6
+
+item_id: simple_python_201
+English: Estimate the population of pandas in the wild in China. | Must keep: species = pandas; country = China
+
+item_id: simple_python_56
+English: What are the names of proteins found in the plasma membrane? | Must keep: cell_compartment = plasma membrane
+
+item_id: multiple_87
+English: Find the latest update or patch for the game 'Cyberpunk 2077' on Xbox platform. | Must keep: game = Cyberpunk 2077; platform = Xbox
+
+item_id: simple_python_390
+English: Convert 150 Euros to Canadian dollars. | Must keep: amount = 150; from_currency = Euros; to_currency = Canadian dollars
+
+item_id: multiple_79
+English: Find art exhibitions for the upcoming month in the Museum of Modern Art, New York. | Must keep: museum_name = Museum of Modern Art, New York
+
+item_id: simple_python_62
+English: Analyze the DNA sequence 'AGTCGATCGAACGTACGTACG' for any potential substitution mutations based on a reference sequence 'AGTCCATCGAACGTACGTACG'. | Must keep: sequence = AGTCGATCGAACGTACGTACG; reference_sequence = AGTCCATCGAACGTACGTACG
+
+item_id: multiple_72
+English: What was the population of California in 1970? | Must keep: state = California; year = 1970
+
+item_id: simple_python_244
+English: What year was the law of universal gravitation published by Isaac Newton? | Must keep: author = Isaac Newton; work_title = the law of universal gravitation
+
+item_id: simple_python_318
+English: What is the FIFA ranking of Germany's men soccer team for the year 2021? | Must keep: team_name = Germany; year = 2021
+
+item_id: multiple_85
+English: Get the soccer scores for Real Madrid games in La Liga for the last 5 rounds. | Must keep: team = Real Madrid; league = La Liga; rounds = 5
+
+item_id: simple_python_136
+English: Find the compound interest for an investment of $10000 with an annual interest rate of 5% compounded monthly for 5 years. | Must keep: principal = 10000; annual_rate = 5; compounding_freq = monthly; time_in_years = 5
+
+item_id: multiple_164
+English: What's the retail price of a Fender American Professional II Stratocaster in Rosewood Finish? | Must keep: brand = Fender; model = American Professional II Stratocaster; finish = Rosewood
+
+item_id: simple_python_69
+English: Find out the population and species of turtles in Mississippi river in 2020. | Must keep: location = Mississippi river; year = 2020
+
+item_id: multiple_84
+English: Give me the top 10 goal scorers in the UEFA Champions League from Barcelona team. | Must keep: competition = UEFA Champions League; team = Barcelona; number = 10
+
+item_id: simple_python_162
+English: Generate a customized law contract between John and Alice for rental agreement in California. | Must keep: parties = John, Alice; contract_type = rental agreement; location = California

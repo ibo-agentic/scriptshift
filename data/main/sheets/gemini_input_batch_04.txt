@@ -1,0 +1,142 @@
+You are helping build a research dataset. For each English request below, write it in 4 Bangla forms. Same meaning in all 4. Every value under "Must keep" must appear.
+
+FORMS:
+1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
+4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
+
+RULES:
+- Write like a real person asking an assistant, not a word-for-word translation.
+- Do not add or remove any information.
+- NO EXTRA ANSWER: a value may appear only in the form and wording the English request uses. If English writes a number as a word ("three"), keep it a word (তিন / tin / three). If English writes digits, use English digits 0-9. Never change capital letters, date formats, or words to match the "Must keep" list. Never add a word that is not in the English request.
+- Output ONLY a tab-separated table with columns: item_id, bn_native, bn_roman, bn_mixed, bn_partial
+- One row per item, no extra text.
+
+EXAMPLE:
+English: What is the weather in Dhaka today? | Must keep: city = Dhaka
+EXAMPLE	আজ ঢাকার আবহাওয়া কেমন?	aaj dhakar abohawa kemon?	aaj Dhaka te weather kemon?	আজ Dhaka-র আবহাওয়া কেমন?
+
+ITEMS
+
+(batch 04: 40 items)
+
+item_id: simple_python_327
+English: Give me the schedule of Manchester United for the next 6 games in Premier League. | Must keep: team_name = Manchester United; num_of_games = 6; league = Premier League
+
+item_id: multiple_71
+English: How many veterans were there in the United States in the year 1954? | Must keep: year = 1954; category = veterans
+
+item_id: simple_python_144
+English: Find the market performance of the S&P 500 and the Dow Jones over the past 5 days. | Must keep: indexes = S&P 500, Dow Jones; days = 5
+
+item_id: multiple_38
+English: Find a book 'The Alchemist' in the library branches within New York city. | Must keep: book_name = The Alchemist; city = New York city
+
+item_id: simple_python_398
+English: What are the opening hours of the Metropolitan Museum of Art on Saturday? | Must keep: museum_name = Metropolitan Museum of Art; day = Saturday
+
+item_id: multiple_140
+English: Find the lawsuits filed against the company Google in California in the year 2020. | Must keep: company_name = Google; location = California; year = 2020
+
+item_id: simple_python_169
+English: Find the details of the court case identified by docket number 123456 in Texas. Don't return full text | Must keep: docket_number = 123456; location = Texas
+
+item_id: simple_python_189
+English: Get weather information for New York, USA for the next 3 days with details. | Must keep: location = New York, USA; days = 3
+
+item_id: multiple_191
+English: Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022. | Must keep: hotel_name = Hotel Paradise; location = Las Vegas; room_type = luxury; start_date = May 12, 2022; stay_duration = 3; view = city view
+
+item_id: simple_python_264
+English: Find the size of the sculpture with title 'David' by Michelangelo. | Must keep: artist = Michelangelo; title = David; detail = size
+
+item_id: multiple_161
+English: Find the top rated modern sculpture exhibition happening in New York in the upcoming month. | Must keep: location = New York; art_form = modern sculpture
+
+item_id: simple_python_246
+English: Who discovered Gravity and what was the method used? | Must keep: discovery = Gravity
+
+item_id: multiple_68
+English: Can I find a historical fiction book at the New York public library? | Must keep: location = New York public library; genre = historical fiction
+
+item_id: simple_python_372
+English: Find the top five organic bananas brands on the basis of rating from Whole Foods store. | Must keep: product = bananas
+
+item_id: simple_python_37
+English: Find the estimated travel time by car from San Francisco to Los Angeles with stops at Santa Barbara and Monterey. | Must keep: start_location = San Francisco; end_location = Los Angeles; stops = Santa Barbara, Monterey
+
+item_id: multiple_180
+English: Fetch player statistics of 'Zelda' on Switch for user 'Sam'. | Must keep: game = Zelda; username = Sam; platform = Switch
+
+item_id: simple_python_14
+English: Calculate the derivative of the function 3x^2 + 2x - 1. | Must keep: function = 3x^2 + 2x - 1
+
+item_id: multiple_118
+English: Find all movies starring Leonardo DiCaprio in the year 2010 from IMDB database. | Must keep: actor_name = Leonardo DiCaprio; year = 2010
+
+item_id: simple_python_146
+English: What's the price of Amazon stock for the last 3 days? | Must keep: company = Amazon; days = 3
+
+item_id: simple_python_156
+English: Look up details of a felony crime record for case number CA123456 in San Diego County | Must keep: case_number = CA123456; county = San Diego County
+
+item_id: multiple_168
+English: Find the lyrics to the song 'Bohemian Rhapsody' by Queen. | Must keep: song_title = Bohemian Rhapsody; artist_name = Queen
+
+item_id: simple_python_358
+English: Find a gluten-free cookie recipe that takes less than 30 minutes to prepare. | Must keep: diet = gluten-free; time_limit = 30; dish = cookie
+
+item_id: multiple_76
+English: I want to order a custom bronze sculpture of a horse. What material options are available? | Must keep: item = horse; material = bronze
+
+item_id: simple_python_178
+English: Find details about lawsuit case numbered 'LAX2019080202' in the Los Angeles court. | Must keep: case_number = LAX2019080202; court_location = Los Angeles
+
+item_id: multiple_171
+English: Who won the basketball game between Lakers and Clippers on Jan 28, 2021? | Must keep: teams = Lakers, Clippers; date = Jan 28, 2021
+
+item_id: simple_python_265
+English: Find me sculptures near Chicago that were made in the 19th century. | Must keep: location = Chicago; time_frame = 19th century
+
+item_id: simple_python_317
+English: Find the ranking of LA Lakers in the NBA 2021 regular season. | Must keep: team_name = LA Lakers; league = NBA; season = 2021; type = regular
+
+item_id: multiple_16
+English: What's the required minimum population size (Ne) for maintaining the genetic diversity of a wild tiger population for the next 100 generations with a probability of 0.95? | Must keep: species = wild tiger; generations = 100; probability = 0.95
+
+item_id: simple_python_349
+English: Find the highest score achieved by any player in the online game 'Overwatch' on PC globally. | Must keep: game = Overwatch; platform = PC
+
+item_id: multiple_59
+English: Find lawyers specializing in criminal law near me in New York. | Must keep: location = New York; specialization = criminal law
+
+item_id: simple_python_225
+English: What is the percentage of population preferring digital reading over physical books? | Must keep: category = reading; option_one = digital reading; option_two = physical books
+
+item_id: multiple_193
+English: Get me the travel distance and duration from the Eiffel Tower to the Louvre Museum | Must keep: start_location = Eiffel Tower; end_location = Louvre Museum
+
+item_id: simple_python_204
+English: Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle. | Must keep: location = Seattle; cuisine = Chinese; max_distance = 10
+
+item_id: simple_python_159
+English: Give me the details of Criminal Law Amendment Act of 2013. | Must keep: act_name = Criminal Law Amendment Act; amendment_year = 2013
+
+item_id: multiple_18
+English: Who were the main participants and what was the location of the Battle of Stalingrad? | Must keep: battle = Battle of Stalingrad
+
+item_id: simple_python_263
+English: Find me the most recent art sculpture by James Plensa with detailed description. | Must keep: artist_name = James Plensa
+
+item_id: multiple_114
+English: Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using Darwin model | Must keep: species = Homo Sapiens; years = 50
+
+item_id: simple_python_174
+English: Get me the top 10 landmark cases in constitutional law in China. | Must keep: field_of_law = constitutional law; top_number = 10; country = China
+
+item_id: multiple_23
+English: What are the current stats for basketball player LeBron James including points per game, assists, and minutes per game. | Must keep: player_name = LeBron James; stats_fields = points per game, assists, minutes per game
+
+item_id: simple_python_206
+English: Find the nearest park with a tennis court in London. | Must keep: location = London; amenities = tennis court

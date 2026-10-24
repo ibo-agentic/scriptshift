@@ -1,0 +1,142 @@
+You are helping build a research dataset. For each English request below, write it in 4 Bangla forms. Same meaning in all 4. Every value under "Must keep" must appear.
+
+FORMS:
+1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
+4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
+
+RULES:
+- Write like a real person asking an assistant, not a word-for-word translation.
+- Do not add or remove any information.
+- NO EXTRA ANSWER: a value may appear only in the form and wording the English request uses. If English writes a number as a word ("three"), keep it a word (তিন / tin / three). If English writes digits, use English digits 0-9. Never change capital letters, date formats, or words to match the "Must keep" list. Never add a word that is not in the English request.
+- Output ONLY a tab-separated table with columns: item_id, bn_native, bn_roman, bn_mixed, bn_partial
+- One row per item, no extra text.
+
+EXAMPLE:
+English: What is the weather in Dhaka today? | Must keep: city = Dhaka
+EXAMPLE	আজ ঢাকার আবহাওয়া কেমন?	aaj dhakar abohawa kemon?	aaj Dhaka te weather kemon?	আজ Dhaka-র আবহাওয়া কেমন?
+
+ITEMS
+
+(batch 06: 40 items)
+
+item_id: simple_python_248
+English: Who invented the theory of relativity and in which year? | Must keep: invention_name = theory of relativity
+
+item_id: multiple_146
+English: Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle. | Must keep: location = Seattle; cuisine = Chinese; max_distance = 10
+
+item_id: simple_python_361
+English: Find Italian restaurants near New York city that serves gluten-free options. | Must keep: city = New York city; cuisine = Italian; diet = gluten-free
+
+item_id: multiple_181
+English: Get me the details of the last game played by Liverpool F.C. Include its statistics. | Must keep: team_name = Liverpool F.C.
+
+item_id: simple_python_330
+English: What's the average review rating and the age range for the board game 'Catan'? | Must keep: game_name = Catan; info_required = average review rating, age range
+
+item_id: simple_python_36
+English: Find the shortest driving distance between New York City and Washington D.C. | Must keep: origin = New York City; destination = Washington D.C.
+
+item_id: multiple_17
+English: Find the conversion rate from Euro to Dollar at January 1, 2022 | Must keep: from_currency = Euro; to_currency = Dollar; date = January 1, 2022
+
+item_id: simple_python_255
+English: Get the biography and main contributions of Pope Innocent III. | Must keep: papal_name = Pope Innocent III
+
+item_id: multiple_90
+English: I want a seafood restaurant in Seattle that can accommodate a group of 5. | Must keep: location = Seattle; cuisine = seafood; group_size = 5
+
+item_id: simple_python_313
+English: What's the total worth in euro of Messi according to latest data? | Must keep: name = Messi; currency = euro
+
+item_id: simple_python_194
+English: What are the top three plants suitable for a hill slope in terms of erosion prevention? | Must keep: slope_type = hill; num_results = three
+
+item_id: multiple_174
+English: What is the ranking of Manchester United in Premier League? | Must keep: team = Manchester United; league = Premier League
+
+item_id: simple_python_365
+English: How many ounces in 2 pounds of butter? | Must keep: quantity = 2; from_unit = pounds; to_unit = ounces; item = butter
+
+item_id: multiple_89
+English: Find a healthy lunch recipe under 500 calories that uses chicken and mushrooms. | Must keep: ingredients = chicken, mushrooms; calories = 500
+
+item_id: simple_python_378
+English: Convert time 3pm from New York time zone to London time zone. | Must keep: time = 3pm; from_timezone = New York; to_timezone = London
+
+item_id: simple_python_207
+English: Get the shortest driving distance between New York, USA and Miami, USA. | Must keep: start_location = New York, USA; end_location = Miami, USA; route_preference = shortest
+
+item_id: multiple_20
+English: What is the price to commission a sculpture made of marble with a size of 3 feet? | Must keep: material = marble; size = 3
+
+item_id: simple_python_363
+English: Find the closest sushi restaurant with a patio in Boston. | Must keep: location = Boston; cuisine = sushi; amenities = patio
+
+item_id: multiple_24
+English: What is the fastest route from London to Edinburgh for playing a chess championship? Also provide an estimate of the distance. | Must keep: start = London; destination = Edinburgh
+
+item_id: simple_python_345
+English: Find the value of a vintage Super Mario Bros. game from 1985 like new. | Must keep: game_name = Super Mario Bros.; release_year = 1985; condition = like new
+
+item_id: simple_python_197
+English: Find the air quality index in San Diego at 12pm. | Must keep: location = San Diego; time = 12pm
+
+item_id: multiple_199
+English: Predict the growth of forest in Yellowstone for the next 5 years including human impact. | Must keep: location = Yellowstone; years = 5
+
+item_id: simple_python_350
+English: Get the highest scoring player of game 'Valorant' in 2022 season. | Must keep: game = Valorant; season = 2022 season
+
+item_id: multiple_39
+English: Find a ride from New York to Philadelphia with maximum cost of $50 | Must keep: source = New York; destination = Philadelphia; max_cost = 50
+
+item_id: simple_python_383
+English: I would like to book a single room for two nights at The Plaza hotel. | Must keep: hotel_name = The Plaza; room_type = single; num_nights = two
+
+item_id: simple_python_308
+English: What are the next five matches for Manchester United and who are they playing against in the English Premier League? | Must keep: team_name = Manchester United; num_matches = five
+
+item_id: multiple_13
+English: How much revenue would company XYZ generate if we increase the sales units of product A by 10% while keeping the price the same? | Must keep: company = XYZ; product = product A; sales_units_increase_percentage = 10
+
+item_id: simple_python_319
+English: What is the ranking of Manchester United in Premier League? | Must keep: team = Manchester United; league = Premier League
+
+item_id: multiple_104
+English: Find the shortest driving distance between New York City and Washington D.C. | Must keep: origin = New York City; destination = Washington D.C.
+
+item_id: simple_python_110
+English: Predict the price of the house in San Francisco with 3 bedrooms, 2 bathrooms and area of 1800 square feet. | Must keep: bedrooms = 3; bathrooms = 2; area = 1800; location = San Francisco
+
+item_id: simple_python_299
+English: What is the musical scale associated with C sharp major? | Must keep: key = C sharp
+
+item_id: multiple_65
+English: Find the distance between New York City and Los Angeles. | Must keep: origin = New York City; destination = Los Angeles
+
+item_id: simple_python_254
+English: Retrieve the historic dates and facts related to Christianity between year 300 and 400. | Must keep: religion = Christianity; start_year = 300; end_year = 400
+
+item_id: multiple_151
+English: Find the most followed person on twitter who tweets about psychology related to behaviour and group dynamics. | Must keep: topic = psychology; sub_topics = behaviour, group dynamics
+
+item_id: simple_python_81
+English: Find the fastest route from San Francisco to Los Angeles with toll roads avoided. | Must keep: start_location = San Francisco; end_location = Los Angeles
+
+item_id: simple_python_262
+English: Change my painting's medium to oil and change size to 12x18 with red dominant color. | Must keep: size = 12x18; medium = oil; dominant_color = red
+
+item_id: multiple_55
+English: Predict the stock price for Google for the next 3 days. | Must keep: company = Google; days = 3
+
+item_id: simple_python_279
+English: What's the retail price of a Fender American Professional II Stratocaster in Rosewood Finish? | Must keep: brand = Fender; model = American Professional II Stratocaster; finish = Rosewood
+
+item_id: multiple_109
+English: What are the names of proteins found in the plasma membrane? | Must keep: cell_compartment = plasma membrane
+
+item_id: simple_python_242
+English: Who is the scientist that first proposed the theory of evolution? | Must keep: discovery = theory of evolution

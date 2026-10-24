@@ -1,0 +1,142 @@
+You are helping build a research dataset. For each English request below, write it in 4 Bangla forms. Same meaning in all 4. Every value under "Must keep" must appear.
+
+FORMS:
+1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
+4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
+
+RULES:
+- Write like a real person asking an assistant, not a word-for-word translation.
+- Do not add or remove any information.
+- NO EXTRA ANSWER: a value may appear only in the form and wording the English request uses. If English writes a number as a word ("three"), keep it a word (তিন / tin / three). If English writes digits, use English digits 0-9. Never change capital letters, date formats, or words to match the "Must keep" list. Never add a word that is not in the English request.
+- Output ONLY a tab-separated table with columns: item_id, bn_native, bn_roman, bn_mixed, bn_partial
+- One row per item, no extra text.
+
+EXAMPLE:
+English: What is the weather in Dhaka today? | Must keep: city = Dhaka
+EXAMPLE	আজ ঢাকার আবহাওয়া কেমন?	aaj dhakar abohawa kemon?	aaj Dhaka te weather kemon?	আজ Dhaka-র আবহাওয়া কেমন?
+
+ITEMS
+
+(batch 01: 40 items)
+
+item_id: simple_python_343
+English: Fetch player statistics of 'Zelda' on Switch for user 'Sam'. | Must keep: game = Zelda; username = Sam; platform = Switch
+
+item_id: multiple_142
+English: What is the humidity level in Miami, Florida in the upcoming 7 days? | Must keep: location = Miami, Florida; days = 7
+
+item_id: simple_python_163
+English: Provide me with the property records of my house located at 123 main street, with parcel number 1234567890 in Santa Clara county. Include owners information in the response. | Must keep: address = 123 main street; parcel_number = 1234567890; county = Santa Clara
+
+item_id: multiple_185
+English: Find the closest sushi restaurant with a patio in Boston. | Must keep: location = Boston; cuisine = sushi; amenities = patio
+
+item_id: simple_python_228
+English: Find three personality traits of people who like jogging. | Must keep: hobby = jogging; trait_count = three
+
+item_id: multiple_54
+English: Find out the historical dividend payments of Apple Inc for last five years. | Must keep: company = Apple Inc; years = five
+
+item_id: simple_python_165
+English: Retrieve cases from 2020 about theft crimes in Los Angeles, California | Must keep: year = 2020; crime_type = theft; location = Los Angeles, California
+
+item_id: simple_python_66
+English: Get me data on average precipitation in the Amazon rainforest for the last six months. | Must keep: location = Amazon rainforest; time_frame = six months
+
+item_id: multiple_56
+English: Find the average closing price of Apple stock in the past 60 days | Must keep: company = Apple; days = 60
+
+item_id: simple_python_280
+English: Find an acoustic instrument within my budget of $1000. | Must keep: budget = 1000; type = acoustic
+
+item_id: multiple_60
+English: What will be the humidity and temperature for New York City after 7 days? | Must keep: location = New York City; days = 7
+
+item_id: simple_python_310
+English: What are the career stats of basketball player LeBron James? | Must keep: player_name = LeBron James
+
+item_id: multiple_178
+English: Find a Card of rank 'Queen' and suit 'Hearts' in the deck. | Must keep: rank = Queen; suit = Hearts
+
+item_id: simple_python_200
+English: How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year, with fuel efficiency of 25 MPG ? | Must keep: distance = 12,000; fuel_type = gas
+
+item_id: simple_python_172
+English: How to obtain the detailed case information of the 'R vs Adams' legal case? | Must keep: case_id = R vs Adams
+
+item_id: multiple_166
+English: Find me a classical concert this weekend in Los Angeles with cheap tickets. | Must keep: genre = classical; location = Los Angeles; date = this weekend; price_range = cheap
+
+item_id: simple_python_175
+English: How many months of experience a Lawyer John Doe has on handling Bankruptcy cases. | Must keep: name = John Doe; law_type = Bankruptcy
+
+item_id: multiple_165
+English: Find the price of a used Gibson Les Paul guitar in excellent condition in the Chicago area. | Must keep: model = Gibson Les Paul; condition = excellent; location = Chicago area
+
+item_id: simple_python_233
+English: When did the Treaty of Tordesillas take place? Put it in the format of YYYY. | Must keep: event_name = Treaty of Tordesillas; format = YYYY
+
+item_id: simple_python_290
+English: What's the timing and location for The Weeknd's concert happening in December? | Must keep: artist = The Weeknd; month = December
+
+item_id: multiple_22
+English: What is the record for the most points scored by a single player in an NBA game? | Must keep: league = NBA
+
+item_id: simple_python_355
+English: How many calories in the Beef Lasagna Recipe from Foodnetwork.com? | Must keep: website = Foodnetwork.com; recipe = Beef Lasagna
+
+item_id: multiple_183
+English: How many calories in the Beef Lasagna Recipe from Foodnetwork.com? | Must keep: website = Foodnetwork.com; recipe = Beef Lasagna Recipe
+
+item_id: simple_python_157
+English: Find out if an individual John Doe with a birthday 01-01-1980 has any prior felony convictions in California. | Must keep: full_name = John Doe; birth_date = 01-01-1980; state = California
+
+item_id: multiple_2
+English: What is the capital of Brazil? | Must keep: country = Brazil
+
+item_id: simple_python_322
+English: Get the current ranking for Liverpool Football Club in the Premier League. | Must keep: team = Liverpool Football Club; league = Premier League
+
+item_id: simple_python_170
+English: Find a historical law case about fraud from 2010 to 2015. | Must keep: subject = fraud; from_year = 2010; to_year = 2015
+
+item_id: multiple_115
+English: I want to find 5 restaurants nearby my location, Manhattan, offering Thai food and a vegan menu. | Must keep: location = Manhattan; food_type = Thai; number = 5; dietary_requirements = vegan
+
+item_id: simple_python_342
+English: Find all multi-player games released in 2019 with an ESRB rating of 'Everyone | Must keep: release_year = 2019; ESRB_rating = Everyone
+
+item_id: multiple_73
+English: Who was the founder of Buddhism and where was it originated? | Must keep: religion = Buddhism
+
+item_id: simple_python_252
+English: Find ten major historical events related to Christianity in the 16th century sort by importance. | Must keep: religion = Christianity; century = 16; sort_by = importance; count = ten
+
+item_id: multiple_129
+English: Find the compound interest for an investment of $10000 with an annual interest rate of 5% compounded monthly for 5 years. | Must keep: principal = 10000; annual_rate = 5; compounding_freq = monthly; time_in_years = 5
+
+item_id: simple_python_58
+English: What is the function of ATP synthase in mitochondria? | Must keep: molecule = ATP synthase; organelle = mitochondria
+
+item_id: simple_python_258
+English: Mix yellow and blue colors and adjust the lightness level to 60 percent. | Must keep: color1 = yellow; color2 = blue; lightness = 60
+
+item_id: multiple_145
+English: How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year with fuel efficiency 20 mpg? | Must keep: distance = 12,000; fuel_type = gas; fuel_efficiency = 20
+
+item_id: simple_python_171
+English: Fetch details of a law case with number 43403 in New York court for year 2018. | Must keep: case_number = 43403; court = New York; year = 2018
+
+item_id: multiple_134
+English: Look up details of a felony crime record for case number CA123456 in San Diego County | Must keep: case_number = CA123456; county = San Diego County
+
+item_id: simple_python_257
+English: Can you help me identify the basic RGB value of Sea Green color? | Must keep: color_name = Sea Green
+
+item_id: multiple_172
+English: Find me the detailed profile of basketball player Lebron James | Must keep: name = Lebron James; sport = basketball
+
+item_id: simple_python_321
+English: What's the ranking of Barcelona in the 2021 La Liga season? | Must keep: team = Barcelona; league = La Liga; season = 2021

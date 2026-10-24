@@ -1,0 +1,142 @@
+You are helping build a research dataset. For each English request below, write it in 4 Bangla forms. Same meaning in all 4. Every value under "Must keep" must appear.
+
+FORMS:
+1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
+4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
+
+RULES:
+- Write like a real person asking an assistant, not a word-for-word translation.
+- Do not add or remove any information.
+- NO EXTRA ANSWER: a value may appear only in the form and wording the English request uses. If English writes a number as a word ("three"), keep it a word (তিন / tin / three). If English writes digits, use English digits 0-9. Never change capital letters, date formats, or words to match the "Must keep" list. Never add a word that is not in the English request.
+- Output ONLY a tab-separated table with columns: item_id, bn_native, bn_roman, bn_mixed, bn_partial
+- One row per item, no extra text.
+
+EXAMPLE:
+English: What is the weather in Dhaka today? | Must keep: city = Dhaka
+EXAMPLE	আজ ঢাকার আবহাওয়া কেমন?	aaj dhakar abohawa kemon?	aaj Dhaka te weather kemon?	আজ Dhaka-র আবহাওয়া কেমন?
+
+ITEMS
+
+(batch 03: 40 items)
+
+item_id: simple_python_356
+English: Find me a recipe that serves 2 people, is vegan, and takes under 30 minutes to prepare. | Must keep: servings = 2; diet = vegan; prep_time = 30
+
+item_id: multiple_19
+English: What are the three great Schism in Christianity history? | Must keep: religion = Christianity; count = three
+
+item_id: simple_python_399
+English: Find me the best Italian restaurants in New York City with average customer ratings of more than 4 and accepts credit cards. | Must keep: location = New York City; cuisine = Italian; rating = 4
+
+item_id: multiple_162
+English: What is the structural dynamic analysis of the building with building Id B1004 for 2nd, 3rd and 4th floors? | Must keep: building_id = B1004; floors = 2, 3, 4; mode = dynamic
+
+item_id: simple_python_287
+English: Find me a classical concert this weekend in Los Angeles with cheap tickets. | Must keep: genre = classical; location = Los Angeles; date = this weekend; price_range = cheap
+
+item_id: multiple_177
+English: Find the top chess players in New York with a rating above 2300. | Must keep: location = New York; minimum_rating = 2300
+
+item_id: simple_python_91
+English: Get the highest rated sushi restaurant in Boston, that opens on Sundays. | Must keep: cuisine = sushi; location = Boston; condition = opens on Sundays
+
+item_id: simple_python_59
+English: Calculate the molecular weight of Glucose (C6H12O6) in grams/mole. | Must keep: compound = C6H12O6; to_unit = grams/mole
+
+item_id: multiple_67
+English: Translate Hello, how are you? from English to French. | Must keep: text = Hello, how are you?; source_language = English; target_language = French
+
+item_id: simple_python_386
+English: Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022. | Must keep: hotel_name = Hotel Paradise; location = Las Vegas; room_type = luxury; start_date = May 12, 2022; stay_duration = 3; view = city view
+
+item_id: multiple_52
+English: I have 100 euro. How much is it in USD? | Must keep: amount = 100; from_currency = euro; to_currency = USD
+
+item_id: simple_python_270
+English: Can you give me the height and width of Empire State building in feet? | Must keep: building_name = Empire State building; unit = feet
+
+item_id: multiple_61
+English: Find a Landscape Architect who is experienced 5 years in small space garden design in Portland | Must keep: location = Portland; specialization = small space garden design; years_experience = 5
+
+item_id: simple_python_241
+English: Who was the U.S. president during the Civil War? | Must keep: event = Civil War
+
+item_id: simple_python_173
+English: Find state law cases related to land disputes in the past 5 years from 2015 to 2021 in New York. | Must keep: topic = land disputes; year_range = 2015, 2021; location = New York; judicial_system = state
+
+item_id: multiple_26
+English: Find out the rewards for playing Fortnite on Playstation platform with different missions and trophies | Must keep: game = Fortnite; platform = Playstation
+
+item_id: simple_python_168
+English: Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California. | Must keep: company = Google; start_date = January 1, 2021; location = California
+
+item_id: multiple_25
+English: What is the cheapest selling price for the game 'Assassins Creed Valhalla' in the PlayStation Store in the United States? | Must keep: game_title = Assassins Creed Valhalla; platform = PlayStation
+
+item_id: simple_python_167
+English: Retrieve the details of a Supreme Court case titled 'Roe v. Wade'.Include dissent information. | Must keep: case_title = Roe v. Wade
+
+item_id: simple_python_274
+English: Find information about the opening hours of the Metropolitan Museum of Art. | Must keep: museum_name = the Metropolitan Museum of Art
+
+item_id: multiple_94
+English: I want to book a suite with queen size bed for 3 nights in Hilton New York. Can you find the pricing for me? | Must keep: hotelName = Hilton New York; roomType = suite with queen size bed; nights = 3
+
+item_id: simple_python_371
+English: Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles. | Must keep: location = Los Angeles; items = tomatoes, lettuce
+
+item_id: multiple_112
+English: Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact. | Must keep: location = Yellowstone National Park; years = 5
+
+item_id: simple_python_226
+English: Find the compatibility score in percentage of Aries with Gemini. | Must keep: sign1 = Aries; sign2 = Gemini
+
+item_id: multiple_189
+English: Convert time 3pm from New York time zone to London time zone. | Must keep: time = 3pm; from_timezone = New York; to_timezone = London
+
+item_id: simple_python_211
+English: Send an email to John Doe at john.doe@example.com with the subject 'Meeting' and body 'Let's meet at 10 AM tomorrow'. | Must keep: to = john.doe@example.com; subject = Meeting; body = Let's meet at 10 AM tomorrow
+
+item_id: simple_python_397
+English: Find the distance between New York and Boston, accounting for terrain. | Must keep: origin = New York; destination = Boston
+
+item_id: multiple_74
+English: Find the price of Van Gogh's painting 'Starry Night' on all auction platforms. | Must keep: artwork_name = Starry Night; artist = Van Gogh
+
+item_id: simple_python_392
+English: Get me the latest exchange rate from British Pounds to Japanese Yen. | Must keep: source_currency = British Pounds; target_currency = Japanese Yen
+
+item_id: multiple_158
+English: Get the biography and main contributions of Pope Innocent III. | Must keep: papal_name = Pope Innocent III
+
+item_id: simple_python_249
+English: Tell me more about Christianity and its history till the 14th century | Must keep: religion = Christianity; till_century = 14
+
+item_id: multiple_153
+English: When was the signing of the Treaty of Lisbon? | Must keep: event = signing of the Treaty of Lisbon
+
+item_id: simple_python_217
+English: Analyze my fMRI data in ~/data/myfMRI.nii from a multi-band sequence, that is smoothed at 6mm with an isotropic voxel size of 2mm. | Must keep: data_source = ~/data/myfMRI.nii; sequence_type = multi-band; smooth = 6; voxel_size = 2
+
+item_id: simple_python_346
+English: Get all collectable items from the game 'Animal Crossing: New Horizons' during the Spring season. | Must keep: game_name = Animal Crossing: New Horizons; season = Spring
+
+item_id: multiple_190
+English: Book a single room for two nights at the Hilton Hotel in Chicago, starting from 10th December 2022. | Must keep: hotel_name = Hilton Hotel; location = Chicago; room_type = single; start_date = 10th December 2022; nights = two
+
+item_id: simple_python_190
+English: What's the elevation and area of Yellowstone National Park? | Must keep: park_name = Yellowstone National Park; information = elevation, area
+
+item_id: multiple_160
+English: Find me the most recent art sculpture by James Plensa with detailed description. | Must keep: artist_name = James Plensa
+
+item_id: simple_python_282
+English: Find a Yamaha flute with the specifications of open hole, C foot, and silver headjoint available for sale. | Must keep: brand = Yamaha; specs = open hole, C foot, silver headjoint
+
+item_id: multiple_182
+English: Find me a multiplayer game with rating above 4.5 and compatible with Windows 10. | Must keep: platform = Windows 10; rating = 4.5
+
+item_id: simple_python_182
+English: Retrieve all the lawsuit details for case number XYZ123. | Must keep: case_number = XYZ123

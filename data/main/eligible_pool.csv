@@ -1,287 +1,287 @@
-﻿item_id,source,draw_rank,selected,batch,query
-simple_python_343,simple_python,1,1,1,Fetch player statistics of 'Zelda' on Switch for user 'Sam'.
-simple_python_163,simple_python,2,1,1,"Provide me with the property records of my house located at 123 main street, with parcel number 1234567890 in Santa Clara county. Include owners information in the response."
-simple_python_228,simple_python,3,1,1,Find three personality traits of people who like jogging.
-simple_python_165,simple_python,4,1,1,"Retrieve cases from 2020 about theft crimes in Los Angeles, California"
-simple_python_66,simple_python,5,1,1,Get me data on average precipitation in the Amazon rainforest for the last six months.
-simple_python_280,simple_python,6,1,1,Find an acoustic instrument within my budget of $1000.
-simple_python_310,simple_python,7,1,1,What are the career stats of basketball player LeBron James?
-simple_python_200,simple_python,8,1,1,"How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year, with fuel efficiency of 25 MPG ?"
-simple_python_172,simple_python,9,1,1,How to obtain the detailed case information of the 'R vs Adams' legal case?
-simple_python_175,simple_python,10,1,1,How many months of experience a Lawyer John Doe has on handling Bankruptcy cases.
-simple_python_233,simple_python,11,1,1,When did the Treaty of Tordesillas take place? Put it in the format of YYYY.
-simple_python_290,simple_python,12,1,1,What's the timing and location for The Weeknd's concert happening in December?
-simple_python_355,simple_python,13,1,1,How many calories in the Beef Lasagna Recipe from Foodnetwork.com?
-simple_python_157,simple_python,14,1,1,Find out if an individual John Doe with a birthday 01-01-1980 has any prior felony convictions in California.
-simple_python_322,simple_python,15,1,1,Get the current ranking for Liverpool Football Club in the Premier League.
-simple_python_170,simple_python,16,1,1,Find a historical law case about fraud from 2010 to 2015.
-simple_python_342,simple_python,17,1,1,Find all multi-player games released in 2019 with an ESRB rating of 'Everyone
-simple_python_252,simple_python,18,1,1,Find ten major historical events related to Christianity in the 16th century sort by importance.
-simple_python_58,simple_python,19,1,1,What is the function of ATP synthase in mitochondria?
-simple_python_258,simple_python,20,1,1,Mix yellow and blue colors and adjust the lightness level to 60 percent.
-simple_python_171,simple_python,21,1,1,Fetch details of a law case with number 43403 in New York court for year 2018.
-simple_python_257,simple_python,22,1,1,Can you help me identify the basic RGB value of Sea Green color?
-simple_python_321,simple_python,23,1,1,What's the ranking of Barcelona in the 2021 La Liga season?
-simple_python_78,simple_python,24,1,2,Get the average temperature in Austin for the next 3 days in Celsius.
-simple_python_55,simple_python,25,1,2,Find me detailed information about the structure of human cell
-simple_python_179,simple_python,26,1,2,Find the latest court case between Apple and Samsung occured in USA.
-simple_python_85,simple_python,27,1,2,"What's the approximate distance between Boston, MA, and Washington, D.C. in mile?"
-simple_python_218,simple_python,28,1,2,"Given patient with id 546382, retrieve their brain MRI report with the status 'concluded'."
-simple_python_213,simple_python,29,1,2,Book a direct flight from San Francisco to London for 2022-04-27 afternoon
-simple_python_284,simple_python,30,1,2,Get information about the pop concerts in New York for next month.
-simple_python_54,simple_python,31,1,2,Identify the protein sequence of a given human gene 'BRCA1'.
-simple_python_160,simple_python,32,1,2,Who was the victim in the case docket numbered 2022/AL2562 in California?
-simple_python_147,simple_python,33,1,2,Retrieve stock prices of Microsoft and Google for the last 2 weeks.
-simple_python_331,simple_python,34,1,2,Find the top chess players in New York with a rating above 2300.
-simple_python_340,simple_python,35,1,2,"Determine the winner in a Poker game with John having a Hand of 8♥, 10♥, J♥, Q♥, K♥ and Mike having 9♠, J♠, 10♠, Q♠, K♠."
-simple_python_47,simple_python,36,1,2,Find the boiling point and melting point of water under the sea level of 5000m.
-simple_python_364,simple_python,37,1,2,Can I find an Italian restaurant with Gluten-free options near Brooklyn?
-simple_python_201,simple_python,38,1,2,Estimate the population of pandas in the wild in China.
-simple_python_56,simple_python,39,1,2,What are the names of proteins found in the plasma membrane?
-simple_python_390,simple_python,40,1,2,Convert 150 Euros to Canadian dollars.
-simple_python_62,simple_python,41,1,2,Analyze the DNA sequence 'AGTCGATCGAACGTACGTACG' for any potential substitution mutations based on a reference sequence 'AGTCCATCGAACGTACGTACG'.
-simple_python_244,simple_python,42,1,2,What year was the law of universal gravitation published by Isaac Newton?
-simple_python_318,simple_python,43,1,2,What is the FIFA ranking of Germany's men soccer team for the year 2021?
-simple_python_136,simple_python,44,1,2,Find the compound interest for an investment of $10000 with an annual interest rate of 5% compounded monthly for 5 years.
-simple_python_69,simple_python,45,1,2,Find out the population and species of turtles in Mississippi river in 2020.
-simple_python_162,simple_python,46,1,2,Generate a customized law contract between John and Alice for rental agreement in California.
-simple_python_356,simple_python,47,1,3,"Find me a recipe that serves 2 people, is vegan, and takes under 30 minutes to prepare."
-simple_python_399,simple_python,48,1,3,Find me the best Italian restaurants in New York City with average customer ratings of more than 4 and accepts credit cards.
-simple_python_287,simple_python,49,1,3,Find me a classical concert this weekend in Los Angeles with cheap tickets.
-simple_python_91,simple_python,50,1,3,"Get the highest rated sushi restaurant in Boston, that opens on Sundays."
-simple_python_59,simple_python,51,1,3,Calculate the molecular weight of Glucose (C6H12O6) in grams/mole.
-simple_python_386,simple_python,52,1,3,"Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022."
-simple_python_270,simple_python,53,1,3,Can you give me the height and width of Empire State building in feet?
-simple_python_241,simple_python,54,1,3,Who was the U.S. president during the Civil War?
-simple_python_173,simple_python,55,1,3,Find state law cases related to land disputes in the past 5 years from 2015 to 2021 in New York.
-simple_python_168,simple_python,56,1,3,"Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California."
-simple_python_167,simple_python,57,1,3,Retrieve the details of a Supreme Court case titled 'Roe v. Wade'.Include dissent information.
-simple_python_274,simple_python,58,1,3,Find information about the opening hours of the Metropolitan Museum of Art.
-simple_python_371,simple_python,59,1,3,Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles.
-simple_python_226,simple_python,60,1,3,Find the compatibility score in percentage of Aries with Gemini.
-simple_python_211,simple_python,61,1,3,Send an email to John Doe at john.doe@example.com with the subject 'Meeting' and body 'Let's meet at 10 AM tomorrow'.
-simple_python_397,simple_python,62,1,3,"Find the distance between New York and Boston, accounting for terrain."
-simple_python_392,simple_python,63,1,3,Get me the latest exchange rate from British Pounds to Japanese Yen.
-simple_python_249,simple_python,64,1,3,Tell me more about Christianity and its history till the 14th century
-simple_python_217,simple_python,65,1,3,"Analyze my fMRI data in ~/data/myfMRI.nii from a multi-band sequence, that is smoothed at 6mm with an isotropic voxel size of 2mm."
-simple_python_346,simple_python,66,1,3,Get all collectable items from the game 'Animal Crossing: New Horizons' during the Spring season.
-simple_python_190,simple_python,67,1,3,What's the elevation and area of Yellowstone National Park?
-simple_python_282,simple_python,68,1,3,"Find a Yamaha flute with the specifications of open hole, C foot, and silver headjoint available for sale."
-simple_python_182,simple_python,69,1,3,Retrieve all the lawsuit details for case number XYZ123.
-simple_python_327,simple_python,70,1,4,Give me the schedule of Manchester United for the next 6 games in Premier League.
-simple_python_144,simple_python,71,1,4,Find the market performance of the S&P 500 and the Dow Jones over the past 5 days.
-simple_python_398,simple_python,72,1,4,What are the opening hours of the Metropolitan Museum of Art on Saturday?
-simple_python_169,simple_python,73,1,4,Find the details of the court case identified by docket number 123456 in Texas. Don't return full text
-simple_python_189,simple_python,74,1,4,"Get weather information for New York, USA for the next 3 days with details."
-simple_python_264,simple_python,75,1,4,Find the size of the sculpture with title 'David' by Michelangelo.
-simple_python_246,simple_python,76,1,4,Who discovered Gravity and what was the method used?
-simple_python_372,simple_python,77,1,4,Find the top five organic bananas brands on the basis of rating from Whole Foods store.
-simple_python_37,simple_python,78,1,4,Find the estimated travel time by car from San Francisco to Los Angeles with stops at Santa Barbara and Monterey.
-simple_python_14,simple_python,79,1,4,Calculate the derivative of the function 3x^2 + 2x - 1.
-simple_python_146,simple_python,80,1,4,What's the price of Amazon stock for the last 3 days?
-simple_python_156,simple_python,81,1,4,Look up details of a felony crime record for case number CA123456 in San Diego County
-simple_python_358,simple_python,82,1,4,Find a gluten-free cookie recipe that takes less than 30 minutes to prepare.
-simple_python_178,simple_python,83,1,4,Find details about lawsuit case numbered 'LAX2019080202' in the Los Angeles court.
-simple_python_265,simple_python,84,1,4,Find me sculptures near Chicago that were made in the 19th century.
-simple_python_317,simple_python,85,1,4,Find the ranking of LA Lakers in the NBA 2021 regular season.
-simple_python_349,simple_python,86,1,4,Find the highest score achieved by any player in the online game 'Overwatch' on PC globally.
-simple_python_225,simple_python,87,1,4,What is the percentage of population preferring digital reading over physical books?
-simple_python_204,simple_python,88,1,4,Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle.
-simple_python_159,simple_python,89,1,4,Give me the details of Criminal Law Amendment Act of 2013.
-simple_python_263,simple_python,90,1,4,Find me the most recent art sculpture by James Plensa with detailed description.
-simple_python_174,simple_python,91,1,4,Get me the top 10 landmark cases in constitutional law in China.
-simple_python_206,simple_python,92,1,4,Find the nearest park with a tennis court in London.
-simple_python_141,simple_python,93,1,5,Get current Gold price per ounce.
-simple_python_202,simple_python,94,1,5,How many greenhouse gas emissions would I save if I switched to renewable energy sources for 3 months in California?
-simple_python_379,simple_python,95,1,5,"What's the current time in Sydney, Australia?"
-simple_python_268,simple_python,96,1,5,"Find me the sculptures of Michelangelo with material Marble in Rome, Italy."
-simple_python_230,simple_python,97,1,5,Who was the King of France in 1510?
-simple_python_181,simple_python,98,1,5,Get details of a lawsuit with case number '123456-ABC' filed in Los Angeles court with verdict
-simple_python_348,simple_python,99,1,5,"Create a new player profile for the game with name 'StarPlayer' and character class 'Mage', set the starting level to 5."
-simple_python_353,simple_python,100,1,5,What are some gluten-free recipes for dinner?
-simple_python_67,simple_python,101,1,5,Identify a small green bird in forest.
-simple_python_312,simple_python,102,1,5,What are the statistics of Ronaldo's matches in 2021?
-simple_python_283,simple_python,103,1,5,Find the price of a used Gibson Les Paul guitar in excellent condition in the Chicago area.
-simple_python_70,simple_python,104,1,5,What is the carbon footprint of a gas-powered vehicle driving 1500 miles in a year?
-simple_python_183,simple_python,105,1,5,Search for current lawsuits filed against Apple in Santa Clara County.
-simple_python_177,simple_python,106,1,5,Find all Patent lawsuit cases of Facebook in 2018.
-simple_python_325,simple_python,107,1,5,Who won the last match between Chicago Bulls and Los Angeles Lakers?
-simple_python_385,simple_python,108,1,5,"Book a hotel room with king size bed in Los Angeles for 2 nights starting from 15th October,2023."
-simple_python_63,simple_python,109,1,5,Find out how genetically similar a human and a chimp are in percentage.
-simple_python_229,simple_python,110,1,5,"What's my Big Five Personality trait scores given that I am efficient, organized, easy going and compassionate?"
-simple_python_281,simple_python,111,1,5,"Find the details about the musical instrument 'Violin' from 'Stradivarius' maker, made in the year 1721."
-simple_python_236,simple_python,112,1,5,Get start date on the American Civil War.
-simple_python_376,simple_python,113,1,5,"What time is it currently in London, UK in 24 hour format?"
-simple_python_256,simple_python,114,1,5,Generate an image of a circle with a radius of 50 pixels and color 'Red'.
-simple_python_68,simple_python,115,1,5,Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact.
-simple_python_248,simple_python,116,1,6,Who invented the theory of relativity and in which year?
-simple_python_361,simple_python,117,1,6,Find Italian restaurants near New York city that serves gluten-free options.
-simple_python_330,simple_python,118,1,6,What's the average review rating and the age range for the board game 'Catan'?
-simple_python_36,simple_python,119,1,6,Find the shortest driving distance between New York City and Washington D.C.
-simple_python_255,simple_python,120,1,6,Get the biography and main contributions of Pope Innocent III.
-simple_python_313,simple_python,121,1,6,What's the total worth in euro of Messi according to latest data?
-simple_python_194,simple_python,122,1,6,What are the top three plants suitable for a hill slope in terms of erosion prevention?
-simple_python_365,simple_python,123,1,6,How many ounces in 2 pounds of butter?
-simple_python_378,simple_python,124,1,6,Convert time 3pm from New York time zone to London time zone.
-simple_python_207,simple_python,125,1,6,"Get the shortest driving distance between New York, USA and Miami, USA."
-simple_python_363,simple_python,126,1,6,Find the closest sushi restaurant with a patio in Boston.
-simple_python_345,simple_python,127,1,6,Find the value of a vintage Super Mario Bros. game from 1985 like new.
-simple_python_197,simple_python,128,1,6,Find the air quality index in San Diego at 12pm.
-simple_python_350,simple_python,129,1,6,Get the highest scoring player of game 'Valorant' in 2022 season.
-simple_python_383,simple_python,130,1,6,I would like to book a single room for two nights at The Plaza hotel.
-simple_python_308,simple_python,131,1,6,What are the next five matches for Manchester United and who are they playing against in the English Premier League?
-simple_python_319,simple_python,132,1,6,What is the ranking of Manchester United in Premier League?
-simple_python_110,simple_python,133,1,6,"Predict the price of the house in San Francisco with 3 bedrooms, 2 bathrooms and area of 1800 square feet."
-simple_python_299,simple_python,134,1,6,What is the musical scale associated with C sharp major?
-simple_python_254,simple_python,135,1,6,Retrieve the historic dates and facts related to Christianity between year 300 and 400.
-simple_python_81,simple_python,136,1,6,Find the fastest route from San Francisco to Los Angeles with toll roads avoided.
-simple_python_262,simple_python,137,1,6,Change my painting's medium to oil and change size to 12x18 with red dominant color.
-simple_python_279,simple_python,138,1,6,What's the retail price of a Fender American Professional II Stratocaster in Rosewood Finish?
-simple_python_242,simple_python,139,1,6,Who is the scientist that first proposed the theory of evolution?
-simple_python_243,simple_python,140,0,,Who discovered the neutron? Give me detail information.
-simple_python_50,simple_python,141,0,,What is the change in entropy in Joules per Kelvin of a 1kg ice block at 0°C if it is heated to 100°C under 1 atmosphere of pressure?
-simple_python_219,simple_python,142,0,,What are the coordinates of the neuron in a rat's all part of the brain that produces GABA neurotransmitters?
-simple_python_149,simple_python,143,0,,What's the current stock price of Apple and Microsoft?
-simple_python_276,simple_python,144,0,,Get the working hours of Louvre Museum in Paris.
-simple_python_359,simple_python,145,0,,Give me a recipe for a vegetarian pasta with cheese for 2 servings.
-simple_python_210,simple_python,146,0,,Get 5 latest news on Bitcoin in US
-simple_python_320,simple_python,147,0,,"Fetch the basketball league standings, where Golden State Warriors stand in current 2022-2023 season with details"
-simple_python_380,simple_python,148,0,,"Book a single room at a pet friendly hotel near Manhattan, New York for 3 nights starting from March 10th, 2023."
-simple_python_80,simple_python,149,0,,"I want to find 5 restaurants nearby my location, Manhattan, offering Thai food and a vegan menu."
-simple_python_232,simple_python,150,0,,What was the full name king of England in 1800?
-simple_python_73,simple_python,151,0,,What's the projected population growth in United States in the next 20 years?
-simple_python_396,simple_python,152,0,,"Find a hospital within 5 km radius around Denver, Colorado with pediatrics department."
-simple_python_245,simple_python,153,0,,Who discovered radium?
-simple_python_237,simple_python,154,0,,Get historical GDP data for United States from 1960 to 2000.
-simple_python_235,simple_python,155,0,,When was the signing of the Treaty of Lisbon?
-simple_python_191,simple_python,156,0,,"Find me the 5 tallest mountains within 50km of Denver, Colorado."
-simple_python_253,simple_python,157,0,,Retrieve the full historyof Buddhism
-simple_python_176,simple_python,158,0,,Find details of patent lawsuits involving the company 'Apple Inc.' from the year 2010.
-simple_python_221,simple_python,159,0,,What will be the population growth in London over the next five years?
-simple_python_375,simple_python,160,0,,Check the total price for three pumpkins and two dozen eggs at Walmart.
-simple_python_34,simple_python,161,0,,Create an itinerary for a 7 days trip to Tokyo with daily budgets not exceeding $100 and prefer exploring nature.
-simple_python_271,simple_python,162,0,,"What is the structural dynamic analysis of the building with building Id B1004 for 2nd, 3rd and 4th floors?"
-simple_python_86,simple_python,163,0,,"Find the shortest distance between two cities, New York and Los Angeles, through the train and you can transfer."
-simple_python_209,simple_python,164,0,,"Locate the nearest public library in Boston, Massachusetts with English fiction section and free Wi-Fi."
-simple_python_101,simple_python,165,0,,Calculate the speed of an object in km/h if it traveled 450 meters in 20 seconds.
-simple_python_76,simple_python,166,0,,Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using Darwin model
-simple_python_351,simple_python,167,0,,Find me a multiplayer game with rating above 4.5 and compatible with Windows 10.
-simple_python_7,simple_python,168,0,,What is the circumference of a circle with a radius of 4 inches?
-simple_python_185,simple_python,169,0,,What will be the weather in New York in the next 72 hours including the precipitation?
-simple_python_266,simple_python,170,0,,What is the value of the sculpture 'The Thinker' by Rodin?
-simple_python_344,simple_python,171,0,,What's the power rating for the Weapon 'Guardian Sword+' in the game 'Legend of Zelda: Breath of the Wild'?
-simple_python_289,simple_python,172,0,,Find concerts near me in Seattle that plays jazz music.
-simple_python_324,simple_python,173,0,,Find the score of last game for Los Angeles Lakers including its opponent name.
-simple_python_335,simple_python,174,0,,Find a Card of rank 'Queen' and suit 'Hearts' in the deck.
-simple_python_261,simple_python,175,0,,Draw a rectangle with a width of 20 units and height of 10 units in red.
-simple_python_326,simple_python,176,0,,Get the latest game score and statistics for Los Angeles Lakers in NBA.
-simple_python_354,simple_python,177,0,,Find a vegan soup recipe that takes under 30 minutes to make.
-simple_python_347,simple_python,178,0,,Get me the details of the last game played by Liverpool F.C. Include its statistics.
-simple_python_180,simple_python,179,0,,Find the lawsuits filed against the company Google in California in the year 2020.
-simple_python_90,simple_python,180,0,,Retrieve Personal Info and Job History data of a specific employee whose ID is 345 in company 'ABC Ltd.
-simple_python_362,simple_python,181,0,,What are the top five sushi restaurants with high reviews i.e. above 4/5 in Tokyo?
-simple_python_311,simple_python,182,0,,Find me the detailed profile of basketball player Lebron James
-simple_python_307,simple_python,183,0,,"Who won the basketball game between Lakers and Clippers on Jan 28, 2021?"
-simple_python_224,simple_python,184,0,,Find the most followed person on twitter who tweets about psychology related to behaviour and group dynamics.
-simple_python_125,simple_python,185,0,,"Predict house price in San Francisco based on its area of 2500 square feet, number of rooms as 5 and year of construction is 1990."
-multiple_142,multiple,1,1,1,"What is the humidity level in Miami, Florida in the upcoming 7 days?"
-multiple_185,multiple,2,1,1,Find the closest sushi restaurant with a patio in Boston.
-multiple_54,multiple,3,1,1,Find out the historical dividend payments of Apple Inc for last five years.
-multiple_56,multiple,4,1,1,Find the average closing price of Apple stock in the past 60 days
-multiple_60,multiple,5,1,1,What will be the humidity and temperature for New York City after 7 days?
-multiple_178,multiple,6,1,1,Find a Card of rank 'Queen' and suit 'Hearts' in the deck.
-multiple_166,multiple,7,1,1,Find me a classical concert this weekend in Los Angeles with cheap tickets.
-multiple_165,multiple,8,1,1,Find the price of a used Gibson Les Paul guitar in excellent condition in the Chicago area.
-multiple_22,multiple,9,1,1,What is the record for the most points scored by a single player in an NBA game?
-multiple_183,multiple,10,1,1,How many calories in the Beef Lasagna Recipe from Foodnetwork.com?
-multiple_2,multiple,11,1,1,What is the capital of Brazil?
-multiple_115,multiple,12,1,1,"I want to find 5 restaurants nearby my location, Manhattan, offering Thai food and a vegan menu."
-multiple_73,multiple,13,1,1,Who was the founder of Buddhism and where was it originated?
-multiple_129,multiple,14,1,1,Find the compound interest for an investment of $10000 with an annual interest rate of 5% compounded monthly for 5 years.
-multiple_145,multiple,15,1,1,"How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year with fuel efficiency 20 mpg?"
-multiple_134,multiple,16,1,1,Look up details of a felony crime record for case number CA123456 in San Diego County
-multiple_172,multiple,17,1,1,Find me the detailed profile of basketball player Lebron James
-multiple_169,multiple,18,1,2,What is the musical scale associated with C sharp major?
-multiple_78,multiple,19,1,2,"Get me information about Natural History Museum in London including timings, exhibitions, and accessibility."
-multiple_45,multiple,20,1,2,Calculate how many years ago was the Ice age?
-multiple_93,multiple,21,1,2,Book a deluxe room for 2 nights at the Marriott hotel in New York and add breakfast as an extra service
-multiple_155,multiple,22,1,2,Who discovered the neutron? Give me detail information.
-multiple_82,multiple,23,1,2,Play a song in C Major key at tempo 120 bpm.
-multiple_187,multiple,24,1,2,Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles.
-multiple_184,multiple,25,1,2,Give me a recipe for a vegetarian pasta with cheese for 2 servings.
-multiple_188,multiple,26,1,2,"Find the grocery store closest to Berkeley that has at least a 4.5 star rating, selling tomatoes and also pet food."
-multiple_170,multiple,27,1,2,Get the player stats of Cristiano Ronaldo in the 2019-2020 season
-multiple_43,multiple,28,1,2,What is the energy produced by 5 mol of glucose (C6H12O6)?
-multiple_87,multiple,29,1,2,Find the latest update or patch for the game 'Cyberpunk 2077' on Xbox platform.
-multiple_79,multiple,30,1,2,"Find art exhibitions for the upcoming month in the Museum of Modern Art, New York."
-multiple_72,multiple,31,1,2,What was the population of California in 1970?
-multiple_85,multiple,32,1,2,Get the soccer scores for Real Madrid games in La Liga for the last 5 rounds.
-multiple_164,multiple,33,1,2,What's the retail price of a Fender American Professional II Stratocaster in Rosewood Finish?
-multiple_84,multiple,34,1,2,Give me the top 10 goal scorers in the UEFA Champions League from Barcelona team.
-multiple_19,multiple,35,1,3,What are the three great Schism in Christianity history?
-multiple_162,multiple,36,1,3,"What is the structural dynamic analysis of the building with building Id B1004 for 2nd, 3rd and 4th floors?"
-multiple_177,multiple,37,1,3,Find the top chess players in New York with a rating above 2300.
-multiple_67,multiple,38,1,3,"Translate Hello, how are you? from English to French."
-multiple_52,multiple,39,1,3,I have 100 euro. How much is it in USD?
-multiple_61,multiple,40,1,3,Find a Landscape Architect who is experienced 5 years in small space garden design in Portland
-multiple_26,multiple,41,1,3,Find out the rewards for playing Fortnite on Playstation platform with different missions and trophies
-multiple_25,multiple,42,1,3,What is the cheapest selling price for the game 'Assassins Creed Valhalla' in the PlayStation Store in the United States?
-multiple_94,multiple,43,1,3,I want to book a suite with queen size bed for 3 nights in Hilton New York. Can you find the pricing for me?
-multiple_112,multiple,44,1,3,Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact.
-multiple_189,multiple,45,1,3,Convert time 3pm from New York time zone to London time zone.
-multiple_74,multiple,46,1,3,Find the price of Van Gogh's painting 'Starry Night' on all auction platforms.
-multiple_158,multiple,47,1,3,Get the biography and main contributions of Pope Innocent III.
-multiple_153,multiple,48,1,3,When was the signing of the Treaty of Lisbon?
-multiple_190,multiple,49,1,3,"Book a single room for two nights at the Hilton Hotel in Chicago, starting from 10th December 2022."
-multiple_160,multiple,50,1,3,Find me the most recent art sculpture by James Plensa with detailed description.
-multiple_182,multiple,51,1,3,Find me a multiplayer game with rating above 4.5 and compatible with Windows 10.
-multiple_71,multiple,52,1,4,How many veterans were there in the United States in the year 1954?
-multiple_38,multiple,53,1,4,Find a book 'The Alchemist' in the library branches within New York city.
-multiple_140,multiple,54,1,4,Find the lawsuits filed against the company Google in California in the year 2020.
-multiple_191,multiple,55,1,4,"Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022."
-multiple_161,multiple,56,1,4,Find the top rated modern sculpture exhibition happening in New York in the upcoming month.
-multiple_68,multiple,57,1,4,Can I find a historical fiction book at the New York public library?
-multiple_180,multiple,58,1,4,Fetch player statistics of 'Zelda' on Switch for user 'Sam'.
-multiple_118,multiple,59,1,4,Find all movies starring Leonardo DiCaprio in the year 2010 from IMDB database.
-multiple_168,multiple,60,1,4,Find the lyrics to the song 'Bohemian Rhapsody' by Queen.
-multiple_76,multiple,61,1,4,I want to order a custom bronze sculpture of a horse. What material options are available?
-multiple_171,multiple,62,1,4,"Who won the basketball game between Lakers and Clippers on Jan 28, 2021?"
-multiple_16,multiple,63,1,4,What's the required minimum population size (Ne) for maintaining the genetic diversity of a wild tiger population for the next 100 generations with a probability of 0.95?
-multiple_59,multiple,64,1,4,Find lawyers specializing in criminal law near me in New York.
-multiple_193,multiple,65,1,4,Get me the travel distance and duration from the Eiffel Tower to the Louvre Museum
-multiple_18,multiple,66,1,4,Who were the main participants and what was the location of the Battle of Stalingrad?
-multiple_114,multiple,67,1,4,Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using Darwin model
-multiple_23,multiple,68,1,4,"What are the current stats for basketball player LeBron James including points per game, assists, and minutes per game."
-multiple_70,multiple,69,1,5,Who were the kings of France during the 18th century?
-multiple_137,multiple,70,1,5,"Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California."
-multiple_88,multiple,71,1,5,Find me the number of active players in the game 'World of Warcraft' in 2020.
-multiple_131,multiple,72,1,5,Find the market performance of the S&P 500 and the Dow Jones over the past 5 days.
-multiple_66,multiple,73,1,5,How much traffic should I expect from Las Vegas to Los Angeles this weekend?
-multiple_194,multiple,74,1,5,What are the opening hours of the Metropolitan Museum of Art on Saturday?
-multiple_196,multiple,75,1,5,What are the names of proteins found in the plasma membrane?
-multiple_58,multiple,76,1,5,Search for divorce law specialists in Los Angeles
-multiple_163,multiple,77,1,5,Get the list of top 5 popular artworks at the Metropolitan Museum of Art. Please sort by popularity.
-multiple_138,multiple,78,1,5,How to obtain the detailed case information of the R vs Adams legal case?
-multiple_144,multiple,79,1,5,What is the air quality index in London 2022/08/16?
-multiple_44,multiple,80,1,5,How much will I weigh on Mars if my weight on Earth is 70 kg?
-multiple_176,multiple,81,1,5,Give me the schedule of Manchester United for the next 6 games in Premier League.
-multiple_135,multiple,82,1,5,Who was the victim in the case docket numbered 2022/AL2562 in California?
-multiple_83,multiple,83,1,5,How many goals has Lionel Messi scored for Barcelona till date?
-multiple_86,multiple,84,1,5,What are some recommended board games for 2 players and strategy based from store BoardGameGeek?
-multiple_139,multiple,85,1,5,Find details of patent lawsuits involving the company 'Apple Inc.' from the year 2010.
-multiple_146,multiple,86,1,6,Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle.
-multiple_181,multiple,87,1,6,Get me the details of the last game played by Liverpool F.C. Include its statistics.
-multiple_17,multiple,88,1,6,"Find the conversion rate from Euro to Dollar at January 1, 2022"
-multiple_90,multiple,89,1,6,I want a seafood restaurant in Seattle that can accommodate a group of 5.
-multiple_174,multiple,90,1,6,What is the ranking of Manchester United in Premier League?
-multiple_89,multiple,91,1,6,Find a healthy lunch recipe under 500 calories that uses chicken and mushrooms.
-multiple_20,multiple,92,1,6,What is the price to commission a sculpture made of marble with a size of 3 feet?
-multiple_24,multiple,93,1,6,What is the fastest route from London to Edinburgh for playing a chess championship? Also provide an estimate of the distance.
-multiple_199,multiple,94,1,6,Predict the growth of forest in Yellowstone for the next 5 years including human impact.
-multiple_39,multiple,95,1,6,Find a ride from New York to Philadelphia with maximum cost of $50
-multiple_13,multiple,96,1,6,How much revenue would company XYZ generate if we increase the sales units of product A by 10% while keeping the price the same?
-multiple_104,multiple,97,1,6,Find the shortest driving distance between New York City and Washington D.C.
-multiple_65,multiple,98,1,6,Find the distance between New York City and Los Angeles.
-multiple_151,multiple,99,1,6,Find the most followed person on twitter who tweets about psychology related to behaviour and group dynamics.
-multiple_55,multiple,100,1,6,Predict the stock price for Google for the next 3 days.
-multiple_109,multiple,101,1,6,What are the names of proteins found in the plasma membrane?
+﻿item_id,source,draw_rank,selected,batch,query,note
+simple_python_343,simple_python,1,0,,Fetch player statistics of 'Zelda' on Switch for user 'Sam'.,replaced by simple_python_289: near-duplicate of multiple item multiple_180 (score 100); the multiple item stays
+simple_python_163,simple_python,2,1,1,"Provide me with the property records of my house located at 123 main street, with parcel number 1234567890 in Santa Clara county. Include owners information in the response.",
+simple_python_228,simple_python,3,1,1,Find three personality traits of people who like jogging.,
+simple_python_165,simple_python,4,1,1,"Retrieve cases from 2020 about theft crimes in Los Angeles, California",
+simple_python_66,simple_python,5,1,1,Get me data on average precipitation in the Amazon rainforest for the last six months.,
+simple_python_280,simple_python,6,1,1,Find an acoustic instrument within my budget of $1000.,
+simple_python_310,simple_python,7,1,1,What are the career stats of basketball player LeBron James?,
+simple_python_200,simple_python,8,0,,"How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year, with fuel efficiency of 25 MPG ?",replaced by simple_python_237: near-duplicate of multiple item multiple_145 (score 98); the multiple item stays
+simple_python_172,simple_python,9,0,,How to obtain the detailed case information of the 'R vs Adams' legal case?,replaced by simple_python_245: near-duplicate of multiple item multiple_138 (score 100); the multiple item stays
+simple_python_175,simple_python,10,1,1,How many months of experience a Lawyer John Doe has on handling Bankruptcy cases.,
+simple_python_233,simple_python,11,1,1,When did the Treaty of Tordesillas take place? Put it in the format of YYYY.,
+simple_python_290,simple_python,12,1,1,What's the timing and location for The Weeknd's concert happening in December?,
+simple_python_355,simple_python,13,0,,How many calories in the Beef Lasagna Recipe from Foodnetwork.com?,replaced by simple_python_324: near-duplicate of multiple item multiple_183 (score 100); the multiple item stays
+simple_python_157,simple_python,14,1,1,Find out if an individual John Doe with a birthday 01-01-1980 has any prior felony convictions in California.,
+simple_python_322,simple_python,15,1,1,Get the current ranking for Liverpool Football Club in the Premier League.,
+simple_python_170,simple_python,16,1,1,Find a historical law case about fraud from 2010 to 2015.,
+simple_python_342,simple_python,17,1,1,Find all multi-player games released in 2019 with an ESRB rating of 'Everyone,
+simple_python_252,simple_python,18,1,1,Find ten major historical events related to Christianity in the 16th century sort by importance.,
+simple_python_58,simple_python,19,1,1,What is the function of ATP synthase in mitochondria?,
+simple_python_258,simple_python,20,1,1,Mix yellow and blue colors and adjust the lightness level to 60 percent.,
+simple_python_171,simple_python,21,1,1,Fetch details of a law case with number 43403 in New York court for year 2018.,
+simple_python_257,simple_python,22,1,1,Can you help me identify the basic RGB value of Sea Green color?,
+simple_python_321,simple_python,23,1,1,What's the ranking of Barcelona in the 2021 La Liga season?,
+simple_python_78,simple_python,24,1,1,Get the average temperature in Austin for the next 3 days in Celsius.,
+simple_python_55,simple_python,25,1,2,Find me detailed information about the structure of human cell,
+simple_python_179,simple_python,26,1,2,Find the latest court case between Apple and Samsung occured in USA.,
+simple_python_85,simple_python,27,1,2,"What's the approximate distance between Boston, MA, and Washington, D.C. in mile?",
+simple_python_218,simple_python,28,1,2,"Given patient with id 546382, retrieve their brain MRI report with the status 'concluded'.",
+simple_python_213,simple_python,29,1,2,Book a direct flight from San Francisco to London for 2022-04-27 afternoon,
+simple_python_284,simple_python,30,1,2,Get information about the pop concerts in New York for next month.,
+simple_python_54,simple_python,31,1,2,Identify the protein sequence of a given human gene 'BRCA1'.,
+simple_python_160,simple_python,32,0,,Who was the victim in the case docket numbered 2022/AL2562 in California?,replaced by simple_python_73: near-duplicate of multiple item multiple_135 (score 100); the multiple item stays
+simple_python_147,simple_python,33,1,2,Retrieve stock prices of Microsoft and Google for the last 2 weeks.,
+simple_python_331,simple_python,34,0,,Find the top chess players in New York with a rating above 2300.,replaced by simple_python_344: near-duplicate of multiple item multiple_177 (score 100); the multiple item stays
+simple_python_340,simple_python,35,1,2,"Determine the winner in a Poker game with John having a Hand of 8♥, 10♥, J♥, Q♥, K♥ and Mike having 9♠, J♠, 10♠, Q♠, K♠.",
+simple_python_47,simple_python,36,1,2,Find the boiling point and melting point of water under the sea level of 5000m.,
+simple_python_364,simple_python,37,1,2,Can I find an Italian restaurant with Gluten-free options near Brooklyn?,
+simple_python_201,simple_python,38,1,2,Estimate the population of pandas in the wild in China.,
+simple_python_56,simple_python,39,0,,What are the names of proteins found in the plasma membrane?,replaced by simple_python_276: near-duplicate of multiple item multiple_196 (score 100); the multiple item stays
+simple_python_390,simple_python,40,1,2,Convert 150 Euros to Canadian dollars.,
+simple_python_62,simple_python,41,1,2,Analyze the DNA sequence 'AGTCGATCGAACGTACGTACG' for any potential substitution mutations based on a reference sequence 'AGTCCATCGAACGTACGTACG'.,
+simple_python_244,simple_python,42,1,2,What year was the law of universal gravitation published by Isaac Newton?,
+simple_python_318,simple_python,43,1,2,What is the FIFA ranking of Germany's men soccer team for the year 2021?,
+simple_python_136,simple_python,44,0,,Find the compound interest for an investment of $10000 with an annual interest rate of 5% compounded monthly for 5 years.,replaced by simple_python_320: near-duplicate of multiple item multiple_129 (score 100); the multiple item stays
+simple_python_69,simple_python,45,1,2,Find out the population and species of turtles in Mississippi river in 2020.,
+simple_python_162,simple_python,46,1,2,Generate a customized law contract between John and Alice for rental agreement in California.,
+simple_python_356,simple_python,47,1,2,"Find me a recipe that serves 2 people, is vegan, and takes under 30 minutes to prepare.",
+simple_python_399,simple_python,48,1,2,Find me the best Italian restaurants in New York City with average customer ratings of more than 4 and accepts credit cards.,
+simple_python_287,simple_python,49,0,,Find me a classical concert this weekend in Los Angeles with cheap tickets.,replaced by simple_python_86: near-duplicate of multiple item multiple_166 (score 100); the multiple item stays
+simple_python_91,simple_python,50,1,3,"Get the highest rated sushi restaurant in Boston, that opens on Sundays.",
+simple_python_59,simple_python,51,1,3,Calculate the molecular weight of Glucose (C6H12O6) in grams/mole.,
+simple_python_386,simple_python,52,0,,"Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022.",replaced by simple_python_125: near-duplicate of multiple item multiple_191 (score 100); the multiple item stays
+simple_python_270,simple_python,53,1,3,Can you give me the height and width of Empire State building in feet?,
+simple_python_241,simple_python,54,1,3,Who was the U.S. president during the Civil War?,
+simple_python_173,simple_python,55,1,3,Find state law cases related to land disputes in the past 5 years from 2015 to 2021 in New York.,
+simple_python_168,simple_python,56,0,,"Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California.",replaced by simple_python_396: near-duplicate of multiple item multiple_137 (score 100); the multiple item stays
+simple_python_167,simple_python,57,1,3,Retrieve the details of a Supreme Court case titled 'Roe v. Wade'.Include dissent information.,
+simple_python_274,simple_python,58,1,3,Find information about the opening hours of the Metropolitan Museum of Art.,
+simple_python_371,simple_python,59,0,,Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles.,replaced by simple_python_354: near-duplicate of multiple item multiple_187 (score 100); the multiple item stays
+simple_python_226,simple_python,60,1,3,Find the compatibility score in percentage of Aries with Gemini.,
+simple_python_211,simple_python,61,1,3,Send an email to John Doe at john.doe@example.com with the subject 'Meeting' and body 'Let's meet at 10 AM tomorrow'.,
+simple_python_397,simple_python,62,1,3,"Find the distance between New York and Boston, accounting for terrain.",
+simple_python_392,simple_python,63,1,3,Get me the latest exchange rate from British Pounds to Japanese Yen.,
+simple_python_249,simple_python,64,1,3,Tell me more about Christianity and its history till the 14th century,
+simple_python_217,simple_python,65,1,3,"Analyze my fMRI data in ~/data/myfMRI.nii from a multi-band sequence, that is smoothed at 6mm with an isotropic voxel size of 2mm.",
+simple_python_346,simple_python,66,1,3,Get all collectable items from the game 'Animal Crossing: New Horizons' during the Spring season.,
+simple_python_190,simple_python,67,1,3,What's the elevation and area of Yellowstone National Park?,
+simple_python_282,simple_python,68,1,3,"Find a Yamaha flute with the specifications of open hole, C foot, and silver headjoint available for sale.",
+simple_python_182,simple_python,69,1,3,Retrieve all the lawsuit details for case number XYZ123.,
+simple_python_327,simple_python,70,0,,Give me the schedule of Manchester United for the next 6 games in Premier League.,replaced by simple_python_266: near-duplicate of multiple item multiple_176 (score 100); the multiple item stays
+simple_python_144,simple_python,71,0,,Find the market performance of the S&P 500 and the Dow Jones over the past 5 days.,replaced by simple_python_380: near-duplicate of multiple item multiple_131 (score 100); the multiple item stays
+simple_python_398,simple_python,72,0,,What are the opening hours of the Metropolitan Museum of Art on Saturday?,dropped: near-duplicate of multiple item multiple_194 (score 100); the multiple item stays
+simple_python_169,simple_python,73,1,4,Find the details of the court case identified by docket number 123456 in Texas. Don't return full text,
+simple_python_189,simple_python,74,1,4,"Get weather information for New York, USA for the next 3 days with details.",
+simple_python_264,simple_python,75,1,4,Find the size of the sculpture with title 'David' by Michelangelo.,
+simple_python_246,simple_python,76,1,4,Who discovered Gravity and what was the method used?,
+simple_python_372,simple_python,77,1,4,Find the top five organic bananas brands on the basis of rating from Whole Foods store.,
+simple_python_37,simple_python,78,1,4,Find the estimated travel time by car from San Francisco to Los Angeles with stops at Santa Barbara and Monterey.,
+simple_python_14,simple_python,79,1,4,Calculate the derivative of the function 3x^2 + 2x - 1.,
+simple_python_146,simple_python,80,1,4,What's the price of Amazon stock for the last 3 days?,
+simple_python_156,simple_python,81,0,,Look up details of a felony crime record for case number CA123456 in San Diego County,replaced by simple_python_232: near-duplicate of multiple item multiple_134 (score 100); the multiple item stays
+simple_python_358,simple_python,82,1,4,Find a gluten-free cookie recipe that takes less than 30 minutes to prepare.,
+simple_python_178,simple_python,83,1,4,Find details about lawsuit case numbered 'LAX2019080202' in the Los Angeles court.,
+simple_python_265,simple_python,84,1,4,Find me sculptures near Chicago that were made in the 19th century.,
+simple_python_317,simple_python,85,1,4,Find the ranking of LA Lakers in the NBA 2021 regular season.,
+simple_python_349,simple_python,86,1,4,Find the highest score achieved by any player in the online game 'Overwatch' on PC globally.,
+simple_python_225,simple_python,87,1,4,What is the percentage of population preferring digital reading over physical books?,
+simple_python_204,simple_python,88,0,,Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle.,replaced by simple_python_191: near-duplicate of multiple item multiple_146 (score 100); the multiple item stays
+simple_python_159,simple_python,89,1,4,Give me the details of Criminal Law Amendment Act of 2013.,
+simple_python_263,simple_python,90,0,,Find me the most recent art sculpture by James Plensa with detailed description.,replaced by simple_python_221: near-duplicate of multiple item multiple_160 (score 100); the multiple item stays
+simple_python_174,simple_python,91,1,4,Get me the top 10 landmark cases in constitutional law in China.,
+simple_python_206,simple_python,92,1,4,Find the nearest park with a tennis court in London.,
+simple_python_141,simple_python,93,1,4,Get current Gold price per ounce.,
+simple_python_202,simple_python,94,1,4,How many greenhouse gas emissions would I save if I switched to renewable energy sources for 3 months in California?,
+simple_python_379,simple_python,95,0,,"What's the current time in Sydney, Australia?",replaced by simple_python_362: near-duplicate of pilot item simple_python_377 (score 99)
+simple_python_268,simple_python,96,1,4,"Find me the sculptures of Michelangelo with material Marble in Rome, Italy.",
+simple_python_230,simple_python,97,1,5,Who was the King of France in 1510?,
+simple_python_181,simple_python,98,1,5,Get details of a lawsuit with case number '123456-ABC' filed in Los Angeles court with verdict,
+simple_python_348,simple_python,99,1,5,"Create a new player profile for the game with name 'StarPlayer' and character class 'Mage', set the starting level to 5.",
+simple_python_353,simple_python,100,1,5,What are some gluten-free recipes for dinner?,
+simple_python_67,simple_python,101,1,5,Identify a small green bird in forest.,
+simple_python_312,simple_python,102,1,5,What are the statistics of Ronaldo's matches in 2021?,
+simple_python_283,simple_python,103,0,,Find the price of a used Gibson Les Paul guitar in excellent condition in the Chicago area.,replaced by simple_python_34: near-duplicate of multiple item multiple_165 (score 100); the multiple item stays
+simple_python_70,simple_python,104,1,5,What is the carbon footprint of a gas-powered vehicle driving 1500 miles in a year?,
+simple_python_183,simple_python,105,1,5,Search for current lawsuits filed against Apple in Santa Clara County.,
+simple_python_177,simple_python,106,1,5,Find all Patent lawsuit cases of Facebook in 2018.,
+simple_python_325,simple_python,107,1,5,Who won the last match between Chicago Bulls and Los Angeles Lakers?,
+simple_python_385,simple_python,108,1,5,"Book a hotel room with king size bed in Los Angeles for 2 nights starting from 15th October,2023.",
+simple_python_63,simple_python,109,1,5,Find out how genetically similar a human and a chimp are in percentage.,
+simple_python_229,simple_python,110,1,5,"What's my Big Five Personality trait scores given that I am efficient, organized, easy going and compassionate?",
+simple_python_281,simple_python,111,1,5,"Find the details about the musical instrument 'Violin' from 'Stradivarius' maker, made in the year 1721.",
+simple_python_236,simple_python,112,1,5,Get start date on the American Civil War.,
+simple_python_376,simple_python,113,1,5,"What time is it currently in London, UK in 24 hour format?",
+simple_python_256,simple_python,114,1,5,Generate an image of a circle with a radius of 50 pixels and color 'Red'.,
+simple_python_68,simple_python,115,0,,Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact.,replaced by simple_python_210: near-duplicate of multiple item multiple_112 (score 100); the multiple item stays
+simple_python_248,simple_python,116,1,5,Who invented the theory of relativity and in which year?,
+simple_python_361,simple_python,117,1,5,Find Italian restaurants near New York city that serves gluten-free options.,
+simple_python_330,simple_python,118,1,5,What's the average review rating and the age range for the board game 'Catan'?,
+simple_python_36,simple_python,119,0,,Find the shortest driving distance between New York City and Washington D.C.,replaced by simple_python_149: near-duplicate of multiple item multiple_104 (score 100); the multiple item stays
+simple_python_255,simple_python,120,0,,Get the biography and main contributions of Pope Innocent III.,replaced by simple_python_253: near-duplicate of multiple item multiple_158 (score 100); the multiple item stays
+simple_python_313,simple_python,121,1,6,What's the total worth in euro of Messi according to latest data?,
+simple_python_194,simple_python,122,1,6,What are the top three plants suitable for a hill slope in terms of erosion prevention?,
+simple_python_365,simple_python,123,1,6,How many ounces in 2 pounds of butter?,
+simple_python_378,simple_python,124,0,,Convert time 3pm from New York time zone to London time zone.,replaced by simple_python_90: near-duplicate of multiple item multiple_189 (score 100); the multiple item stays
+simple_python_207,simple_python,125,1,6,"Get the shortest driving distance between New York, USA and Miami, USA.",
+simple_python_363,simple_python,126,0,,Find the closest sushi restaurant with a patio in Boston.,replaced by simple_python_326: near-duplicate of multiple item multiple_185 (score 100); the multiple item stays
+simple_python_345,simple_python,127,1,6,Find the value of a vintage Super Mario Bros. game from 1985 like new.,
+simple_python_197,simple_python,128,1,6,Find the air quality index in San Diego at 12pm.,
+simple_python_350,simple_python,129,1,6,Get the highest scoring player of game 'Valorant' in 2022 season.,
+simple_python_383,simple_python,130,1,6,I would like to book a single room for two nights at The Plaza hotel.,
+simple_python_308,simple_python,131,1,6,What are the next five matches for Manchester United and who are they playing against in the English Premier League?,
+simple_python_319,simple_python,132,0,,What is the ranking of Manchester United in Premier League?,replaced by simple_python_185: near-duplicate of multiple item multiple_174 (score 100); the multiple item stays
+simple_python_110,simple_python,133,1,6,"Predict the price of the house in San Francisco with 3 bedrooms, 2 bathrooms and area of 1800 square feet.",
+simple_python_299,simple_python,134,0,,What is the musical scale associated with C sharp major?,replaced by simple_python_209: near-duplicate of multiple item multiple_169 (score 100); the multiple item stays
+simple_python_254,simple_python,135,1,6,Retrieve the historic dates and facts related to Christianity between year 300 and 400.,
+simple_python_81,simple_python,136,1,6,Find the fastest route from San Francisco to Los Angeles with toll roads avoided.,
+simple_python_262,simple_python,137,1,6,Change my painting's medium to oil and change size to 12x18 with red dominant color.,
+simple_python_279,simple_python,138,0,,What's the retail price of a Fender American Professional II Stratocaster in Rosewood Finish?,replaced by simple_python_375: near-duplicate of multiple item multiple_164 (score 100); the multiple item stays
+simple_python_242,simple_python,139,1,6,Who is the scientist that first proposed the theory of evolution?,
+simple_python_243,simple_python,140,0,,Who discovered the neutron? Give me detail information.,spare skipped: near-duplicate of multiple_155
+simple_python_50,simple_python,141,0,,What is the change in entropy in Joules per Kelvin of a 1kg ice block at 0°C if it is heated to 100°C under 1 atmosphere of pressure?,"spare skipped: all required text values are only units, colors, shapes or generic science terms: substance='ice'"
+simple_python_219,simple_python,142,0,,What are the coordinates of the neuron in a rat's all part of the brain that produces GABA neurotransmitters?,"spare skipped: all required text values are only units, colors, shapes or generic science terms: neuron_type='GABA'; brain_region='All'"
+simple_python_149,simple_python,143,1,5,What's the current stock price of Apple and Microsoft?,replacement for simple_python_36
+simple_python_276,simple_python,144,0,,Get the working hours of Louvre Museum in Paris.,dropped (duplicate by meaning of simple_python_273); no spare left
+simple_python_359,simple_python,145,0,,Give me a recipe for a vegetarian pasta with cheese for 2 servings.,spare skipped: near-duplicate of multiple_184
+simple_python_210,simple_python,146,1,5,Get 5 latest news on Bitcoin in US,replacement for simple_python_68
+simple_python_320,simple_python,147,1,2,"Fetch the basketball league standings, where Golden State Warriors stand in current 2022-2023 season with details",replacement for simple_python_136
+simple_python_380,simple_python,148,1,3,"Book a single room at a pet friendly hotel near Manhattan, New York for 3 nights starting from March 10th, 2023.",replacement for simple_python_144
+simple_python_80,simple_python,149,0,,"I want to find 5 restaurants nearby my location, Manhattan, offering Thai food and a vegan menu.",spare skipped: near-duplicate of multiple_115
+simple_python_232,simple_python,150,1,4,What was the full name king of England in 1800?,replacement for simple_python_156
+simple_python_73,simple_python,151,1,2,What's the projected population growth in United States in the next 20 years?,replacement for simple_python_160
+simple_python_396,simple_python,152,1,3,"Find a hospital within 5 km radius around Denver, Colorado with pediatrics department.",replacement for simple_python_168
+simple_python_245,simple_python,153,1,1,Who discovered radium?,replacement for simple_python_172
+simple_python_237,simple_python,154,1,1,Get historical GDP data for United States from 1960 to 2000.,replacement for simple_python_200
+simple_python_235,simple_python,155,0,,When was the signing of the Treaty of Lisbon?,spare skipped: near-duplicate of multiple_153
+simple_python_191,simple_python,156,1,4,"Find me the 5 tallest mountains within 50km of Denver, Colorado.",replacement for simple_python_204
+simple_python_253,simple_python,157,1,5,Retrieve the full historyof Buddhism,replacement for simple_python_255
+simple_python_176,simple_python,158,0,,Find details of patent lawsuits involving the company 'Apple Inc.' from the year 2010.,spare skipped: near-duplicate of multiple_139
+simple_python_221,simple_python,159,1,4,What will be the population growth in London over the next five years?,replacement for simple_python_263
+simple_python_375,simple_python,160,1,6,Check the total price for three pumpkins and two dozen eggs at Walmart.,replacement for simple_python_279
+simple_python_34,simple_python,161,1,5,Create an itinerary for a 7 days trip to Tokyo with daily budgets not exceeding $100 and prefer exploring nature.,replacement for simple_python_283
+simple_python_271,simple_python,162,0,,"What is the structural dynamic analysis of the building with building Id B1004 for 2nd, 3rd and 4th floors?","spare skipped: all required text values are only units, colors, shapes or generic science terms: mode='dynamic'"
+simple_python_86,simple_python,163,1,3,"Find the shortest distance between two cities, New York and Los Angeles, through the train and you can transfer.",replacement for simple_python_287
+simple_python_209,simple_python,164,1,6,"Locate the nearest public library in Boston, Massachusetts with English fiction section and free Wi-Fi.",replacement for simple_python_299
+simple_python_101,simple_python,165,0,,Calculate the speed of an object in km/h if it traveled 450 meters in 20 seconds.,"spare skipped: all required text values are only units, colors, shapes or generic science terms: to_unit='km/h'"
+simple_python_76,simple_python,166,0,,Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using Darwin model,spare skipped: near-duplicate of multiple_114
+simple_python_351,simple_python,167,0,,Find me a multiplayer game with rating above 4.5 and compatible with Windows 10.,spare skipped: near-duplicate of multiple_182
+simple_python_7,simple_python,168,0,,What is the circumference of a circle with a radius of 4 inches?,"spare skipped: all required text values are only units, colors, shapes or generic science terms: unit='inches'"
+simple_python_185,simple_python,169,0,,What will be the weather in New York in the next 72 hours including the precipitation?,dropped (duplicate by meaning of simple_python_189); no spare left
+simple_python_266,simple_python,170,1,3,What is the value of the sculpture 'The Thinker' by Rodin?,replacement for simple_python_327
+simple_python_344,simple_python,171,1,2,What's the power rating for the Weapon 'Guardian Sword+' in the game 'Legend of Zelda: Breath of the Wild'?,replacement for simple_python_331
+simple_python_289,simple_python,172,1,1,Find concerts near me in Seattle that plays jazz music.,replacement for simple_python_343
+simple_python_324,simple_python,173,1,1,Find the score of last game for Los Angeles Lakers including its opponent name.,replacement for simple_python_355
+simple_python_335,simple_python,174,0,,Find a Card of rank 'Queen' and suit 'Hearts' in the deck.,spare skipped: near-duplicate of multiple_178
+simple_python_261,simple_python,175,0,,Draw a rectangle with a width of 20 units and height of 10 units in red.,"spare skipped: all required text values are only units, colors, shapes or generic science terms: color='red'"
+simple_python_326,simple_python,176,1,6,Get the latest game score and statistics for Los Angeles Lakers in NBA.,replacement for simple_python_363
+simple_python_354,simple_python,177,1,3,Find a vegan soup recipe that takes under 30 minutes to make.,replacement for simple_python_371
+simple_python_347,simple_python,178,0,,Get me the details of the last game played by Liverpool F.C. Include its statistics.,spare skipped: near-duplicate of multiple_181
+simple_python_180,simple_python,179,0,,Find the lawsuits filed against the company Google in California in the year 2020.,spare skipped: near-duplicate of multiple_140
+simple_python_90,simple_python,180,1,6,Retrieve Personal Info and Job History data of a specific employee whose ID is 345 in company 'ABC Ltd.,replacement for simple_python_378
+simple_python_362,simple_python,181,1,4,What are the top five sushi restaurants with high reviews i.e. above 4/5 in Tokyo?,replacement for simple_python_379
+simple_python_311,simple_python,182,0,,Find me the detailed profile of basketball player Lebron James,spare skipped: near-duplicate of multiple_172
+simple_python_307,simple_python,183,0,,"Who won the basketball game between Lakers and Clippers on Jan 28, 2021?",spare skipped: near-duplicate of multiple_171
+simple_python_224,simple_python,184,0,,Find the most followed person on twitter who tweets about psychology related to behaviour and group dynamics.,spare skipped: near-duplicate of multiple_151
+simple_python_125,simple_python,185,1,3,"Predict house price in San Francisco based on its area of 2500 square feet, number of rooms as 5 and year of construction is 1990.",replacement for simple_python_386
+multiple_142,multiple,1,0,,"What is the humidity level in Miami, Florida in the upcoming 7 days?",dropped: near-duplicate of pilot item simple_python_188 (score 100)
+multiple_185,multiple,2,1,1,Find the closest sushi restaurant with a patio in Boston.,
+multiple_54,multiple,3,1,1,Find out the historical dividend payments of Apple Inc for last five years.,
+multiple_56,multiple,4,1,1,Find the average closing price of Apple stock in the past 60 days,
+multiple_60,multiple,5,1,1,What will be the humidity and temperature for New York City after 7 days?,
+multiple_178,multiple,6,1,1,Find a Card of rank 'Queen' and suit 'Hearts' in the deck.,
+multiple_166,multiple,7,1,1,Find me a classical concert this weekend in Los Angeles with cheap tickets.,
+multiple_165,multiple,8,1,1,Find the price of a used Gibson Les Paul guitar in excellent condition in the Chicago area.,
+multiple_22,multiple,9,1,1,What is the record for the most points scored by a single player in an NBA game?,
+multiple_183,multiple,10,1,1,How many calories in the Beef Lasagna Recipe from Foodnetwork.com?,
+multiple_2,multiple,11,1,1,What is the capital of Brazil?,
+multiple_115,multiple,12,1,1,"I want to find 5 restaurants nearby my location, Manhattan, offering Thai food and a vegan menu.",
+multiple_73,multiple,13,1,1,Who was the founder of Buddhism and where was it originated?,
+multiple_129,multiple,14,1,1,Find the compound interest for an investment of $10000 with an annual interest rate of 5% compounded monthly for 5 years.,
+multiple_145,multiple,15,1,1,"How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year with fuel efficiency 20 mpg?",
+multiple_134,multiple,16,1,1,Look up details of a felony crime record for case number CA123456 in San Diego County,
+multiple_172,multiple,17,1,1,Find me the detailed profile of basketball player Lebron James,
+multiple_169,multiple,18,1,2,What is the musical scale associated with C sharp major?,
+multiple_78,multiple,19,1,2,"Get me information about Natural History Museum in London including timings, exhibitions, and accessibility.",
+multiple_45,multiple,20,1,2,Calculate how many years ago was the Ice age?,
+multiple_93,multiple,21,1,2,Book a deluxe room for 2 nights at the Marriott hotel in New York and add breakfast as an extra service,
+multiple_155,multiple,22,1,2,Who discovered the neutron? Give me detail information.,
+multiple_82,multiple,23,1,2,Play a song in C Major key at tempo 120 bpm.,
+multiple_187,multiple,24,1,2,Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles.,
+multiple_184,multiple,25,1,2,Give me a recipe for a vegetarian pasta with cheese for 2 servings.,
+multiple_188,multiple,26,1,2,"Find the grocery store closest to Berkeley that has at least a 4.5 star rating, selling tomatoes and also pet food.",
+multiple_170,multiple,27,0,,Get the player stats of Cristiano Ronaldo in the 2019-2020 season,dropped: near-duplicate of pilot item simple_python_303 (score 100)
+multiple_43,multiple,28,1,2,What is the energy produced by 5 mol of glucose (C6H12O6)?,
+multiple_87,multiple,29,1,2,Find the latest update or patch for the game 'Cyberpunk 2077' on Xbox platform.,
+multiple_79,multiple,30,1,2,"Find art exhibitions for the upcoming month in the Museum of Modern Art, New York.",
+multiple_72,multiple,31,1,2,What was the population of California in 1970?,
+multiple_85,multiple,32,1,2,Get the soccer scores for Real Madrid games in La Liga for the last 5 rounds.,
+multiple_164,multiple,33,1,2,What's the retail price of a Fender American Professional II Stratocaster in Rosewood Finish?,
+multiple_84,multiple,34,1,2,Give me the top 10 goal scorers in the UEFA Champions League from Barcelona team.,
+multiple_19,multiple,35,1,2,What are the three great Schism in Christianity history?,
+multiple_162,multiple,36,1,3,"What is the structural dynamic analysis of the building with building Id B1004 for 2nd, 3rd and 4th floors?",
+multiple_177,multiple,37,1,3,Find the top chess players in New York with a rating above 2300.,
+multiple_67,multiple,38,1,3,"Translate Hello, how are you? from English to French.",
+multiple_52,multiple,39,1,3,I have 100 euro. How much is it in USD?,
+multiple_61,multiple,40,1,3,Find a Landscape Architect who is experienced 5 years in small space garden design in Portland,
+multiple_26,multiple,41,1,3,Find out the rewards for playing Fortnite on Playstation platform with different missions and trophies,
+multiple_25,multiple,42,1,3,What is the cheapest selling price for the game 'Assassins Creed Valhalla' in the PlayStation Store in the United States?,
+multiple_94,multiple,43,1,3,I want to book a suite with queen size bed for 3 nights in Hilton New York. Can you find the pricing for me?,
+multiple_112,multiple,44,1,3,Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact.,
+multiple_189,multiple,45,1,3,Convert time 3pm from New York time zone to London time zone.,
+multiple_74,multiple,46,1,3,Find the price of Van Gogh's painting 'Starry Night' on all auction platforms.,
+multiple_158,multiple,47,1,3,Get the biography and main contributions of Pope Innocent III.,
+multiple_153,multiple,48,1,3,When was the signing of the Treaty of Lisbon?,
+multiple_190,multiple,49,1,3,"Book a single room for two nights at the Hilton Hotel in Chicago, starting from 10th December 2022.",
+multiple_160,multiple,50,1,3,Find me the most recent art sculpture by James Plensa with detailed description.,
+multiple_182,multiple,51,1,3,Find me a multiplayer game with rating above 4.5 and compatible with Windows 10.,
+multiple_71,multiple,52,1,3,How many veterans were there in the United States in the year 1954?,
+multiple_38,multiple,53,1,4,Find a book 'The Alchemist' in the library branches within New York city.,
+multiple_140,multiple,54,1,4,Find the lawsuits filed against the company Google in California in the year 2020.,
+multiple_191,multiple,55,1,4,"Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022.",
+multiple_161,multiple,56,1,4,Find the top rated modern sculpture exhibition happening in New York in the upcoming month.,
+multiple_68,multiple,57,1,4,Can I find a historical fiction book at the New York public library?,
+multiple_180,multiple,58,1,4,Fetch player statistics of 'Zelda' on Switch for user 'Sam'.,
+multiple_118,multiple,59,0,,Find all movies starring Leonardo DiCaprio in the year 2010 from IMDB database.,dropped: near-duplicate of pilot item simple_python_92 (score 100)
+multiple_168,multiple,60,0,,Find the lyrics to the song 'Bohemian Rhapsody' by Queen.,dropped: near-duplicate of pilot item simple_python_295 (score 100)
+multiple_76,multiple,61,1,4,I want to order a custom bronze sculpture of a horse. What material options are available?,
+multiple_171,multiple,62,1,4,"Who won the basketball game between Lakers and Clippers on Jan 28, 2021?",
+multiple_16,multiple,63,1,4,What's the required minimum population size (Ne) for maintaining the genetic diversity of a wild tiger population for the next 100 generations with a probability of 0.95?,
+multiple_59,multiple,64,1,4,Find lawyers specializing in criminal law near me in New York.,
+multiple_193,multiple,65,0,,Get me the travel distance and duration from the Eiffel Tower to the Louvre Museum,dropped: near-duplicate of pilot item simple_python_394 (score 100)
+multiple_18,multiple,66,1,4,Who were the main participants and what was the location of the Battle of Stalingrad?,
+multiple_114,multiple,67,1,4,Get me the predictions of the evolutionary rate for Homo Sapiens for next 50 years using Darwin model,
+multiple_23,multiple,68,1,4,"What are the current stats for basketball player LeBron James including points per game, assists, and minutes per game.",
+multiple_70,multiple,69,1,4,Who were the kings of France during the 18th century?,
+multiple_137,multiple,70,1,4,"Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California.",
+multiple_88,multiple,71,1,4,Find me the number of active players in the game 'World of Warcraft' in 2020.,
+multiple_131,multiple,72,1,5,Find the market performance of the S&P 500 and the Dow Jones over the past 5 days.,
+multiple_66,multiple,73,1,5,How much traffic should I expect from Las Vegas to Los Angeles this weekend?,
+multiple_194,multiple,74,1,5,What are the opening hours of the Metropolitan Museum of Art on Saturday?,
+multiple_196,multiple,75,0,,What are the names of proteins found in the plasma membrane?,dropped: near-duplicate of multiple item multiple_109 (score 100); the item with the lower number stays
+multiple_58,multiple,76,1,5,Search for divorce law specialists in Los Angeles,
+multiple_163,multiple,77,1,5,Get the list of top 5 popular artworks at the Metropolitan Museum of Art. Please sort by popularity.,
+multiple_138,multiple,78,1,5,How to obtain the detailed case information of the R vs Adams legal case?,
+multiple_144,multiple,79,0,,What is the air quality index in London 2022/08/16?,dropped: near-duplicate of pilot item simple_python_196 (score 100)
+multiple_44,multiple,80,1,5,How much will I weigh on Mars if my weight on Earth is 70 kg?,
+multiple_176,multiple,81,1,5,Give me the schedule of Manchester United for the next 6 games in Premier League.,
+multiple_135,multiple,82,1,5,Who was the victim in the case docket numbered 2022/AL2562 in California?,
+multiple_83,multiple,83,1,5,How many goals has Lionel Messi scored for Barcelona till date?,
+multiple_86,multiple,84,1,5,What are some recommended board games for 2 players and strategy based from store BoardGameGeek?,
+multiple_139,multiple,85,1,5,Find details of patent lawsuits involving the company 'Apple Inc.' from the year 2010.,
+multiple_146,multiple,86,1,5,Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle.,
+multiple_181,multiple,87,1,5,Get me the details of the last game played by Liverpool F.C. Include its statistics.,
+multiple_17,multiple,88,1,5,"Find the conversion rate from Euro to Dollar at January 1, 2022",
+multiple_90,multiple,89,1,5,I want a seafood restaurant in Seattle that can accommodate a group of 5.,
+multiple_174,multiple,90,1,6,What is the ranking of Manchester United in Premier League?,
+multiple_89,multiple,91,1,6,Find a healthy lunch recipe under 500 calories that uses chicken and mushrooms.,
+multiple_20,multiple,92,1,6,What is the price to commission a sculpture made of marble with a size of 3 feet?,
+multiple_24,multiple,93,1,6,What is the fastest route from London to Edinburgh for playing a chess championship? Also provide an estimate of the distance.,
+multiple_199,multiple,94,0,,Predict the growth of forest in Yellowstone for the next 5 years including human impact.,dropped: near-duplicate of multiple item multiple_112 (score 93); the item with the lower number stays
+multiple_39,multiple,95,1,6,Find a ride from New York to Philadelphia with maximum cost of $50,
+multiple_13,multiple,96,1,6,How much revenue would company XYZ generate if we increase the sales units of product A by 10% while keeping the price the same?,
+multiple_104,multiple,97,1,6,Find the shortest driving distance between New York City and Washington D.C.,
+multiple_65,multiple,98,1,6,Find the distance between New York City and Los Angeles.,
+multiple_151,multiple,99,1,6,Find the most followed person on twitter who tweets about psychology related to behaviour and group dynamics.,
+multiple_55,multiple,100,1,6,Predict the stock price for Google for the next 3 days.,
+multiple_109,multiple,101,1,6,What are the names of proteins found in the plasma membrane?,

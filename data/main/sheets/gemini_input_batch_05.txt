@@ -2,7 +2,7 @@ You are helping build a research dataset. For each English request below, write 
 
 FORMS:
 1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
-2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling for Bangla words, no diacritics. BUT names of people, places, brands, websites and abbreviations are written in their normal English spelling, as people really type them (Apple Inc, Los Angeles, NBA, Foodnetwork.com), never spelled out phonetically.
 3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
 4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
 
@@ -20,27 +20,6 @@ EXAMPLE	আজ ঢাকার আবহাওয়া কেমন?	aaj dhakar
 ITEMS
 
 (batch 05: 40 items)
-
-item_id: simple_python_141
-English: Get current Gold price per ounce. | Must keep: metal = Gold; measure = ounce
-
-item_id: multiple_70
-English: Who were the kings of France during the 18th century? | Must keep: country = France; century = 18
-
-item_id: simple_python_202
-English: How many greenhouse gas emissions would I save if I switched to renewable energy sources for 3 months in California? | Must keep: energy_type = renewable; usage_duration = 3; region = California
-
-item_id: multiple_137
-English: Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California. | Must keep: company = Google; start_date = January 1, 2021; location = California
-
-item_id: simple_python_379
-English: What's the current time in Sydney, Australia? | Must keep: location = Sydney; country = Australia
-
-item_id: multiple_88
-English: Find me the number of active players in the game 'World of Warcraft' in 2020. | Must keep: game_title = World of Warcraft; year = 2020
-
-item_id: simple_python_268
-English: Find me the sculptures of Michelangelo with material Marble in Rome, Italy. | Must keep: artist = Michelangelo; material = Marble; location = Rome, Italy
 
 item_id: simple_python_230
 English: Who was the King of France in 1510? | Must keep: location = France; date = 1510
@@ -66,17 +45,14 @@ English: What are some gluten-free recipes for dinner? | Must keep: diet = glute
 item_id: simple_python_67
 English: Identify a small green bird in forest. | Must keep: color = green; habitat = forest; size = small
 
-item_id: multiple_196
-English: What are the names of proteins found in the plasma membrane? | Must keep: cell_compartment = plasma membrane
-
 item_id: simple_python_312
 English: What are the statistics of Ronaldo's matches in 2021? | Must keep: player_name = Ronaldo; year = 2021
 
 item_id: multiple_58
 English: Search for divorce law specialists in Los Angeles | Must keep: location = Los Angeles; expertise = divorce
 
-item_id: simple_python_283
-English: Find the price of a used Gibson Les Paul guitar in excellent condition in the Chicago area. | Must keep: model = Gibson Les Paul; condition = excellent; location = Chicago
+item_id: simple_python_34
+English: Create an itinerary for a 7 days trip to Tokyo with daily budgets not exceeding $100 and prefer exploring nature. | Must keep: destination = Tokyo; days = 7; daily_budget = 100; exploration_type = nature
 
 item_id: simple_python_70
 English: What is the carbon footprint of a gas-powered vehicle driving 1500 miles in a year? | Must keep: vehicle_type = gas; miles_driven = 1500
@@ -92,9 +68,6 @@ English: How to obtain the detailed case information of the R vs Adams legal cas
 
 item_id: simple_python_177
 English: Find all Patent lawsuit cases of Facebook in 2018. | Must keep: company_name = Facebook; year = 2018
-
-item_id: multiple_144
-English: What is the air quality index in London 2022/08/16? | Must keep: location = London; date = 2022/08/16
 
 item_id: simple_python_325
 English: Who won the last match between Chicago Bulls and Los Angeles Lakers? | Must keep: team1 = Chicago Bulls; team2 = Los Angeles Lakers
@@ -138,5 +111,32 @@ English: Generate an image of a circle with a radius of 50 pixels and color 'Red
 item_id: multiple_139
 English: Find details of patent lawsuits involving the company 'Apple Inc.' from the year 2010. | Must keep: company_name = Apple Inc.; year = 2010; case_type = patent
 
-item_id: simple_python_68
-English: Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact. | Must keep: location = Yellowstone National Park; years = 5
+item_id: simple_python_210
+English: Get 5 latest news on Bitcoin in US | Must keep: topic = Bitcoin; quantity = 5
+
+item_id: simple_python_248
+English: Who invented the theory of relativity and in which year? | Must keep: invention_name = theory of relativity
+
+item_id: multiple_146
+English: Find restaurants near me within 10 miles that offer Chinese cuisine in Seattle. | Must keep: location = Seattle; cuisine = Chinese; max_distance = 10
+
+item_id: simple_python_361
+English: Find Italian restaurants near New York city that serves gluten-free options. | Must keep: city = New York city; cuisine = Italian; diet = gluten-free
+
+item_id: multiple_181
+English: Get me the details of the last game played by Liverpool F.C. Include its statistics. | Must keep: team_name = Liverpool F.C.
+
+item_id: simple_python_330
+English: What's the average review rating and the age range for the board game 'Catan'? | Must keep: game_name = Catan; info_required = average review rating, age range
+
+item_id: simple_python_149
+English: What's the current stock price of Apple and Microsoft? | Must keep: company_names = Apple, Microsoft
+
+item_id: multiple_17
+English: Find the conversion rate from Euro to Dollar at January 1, 2022 | Must keep: from_currency = Euro; to_currency = Dollar; date = January 1, 2022
+
+item_id: simple_python_253
+English: Retrieve the full historyof Buddhism | Must keep: religion_name = Buddhism; detail_level = full
+
+item_id: multiple_90
+English: I want a seafood restaurant in Seattle that can accommodate a group of 5. | Must keep: location = Seattle; cuisine = seafood; group_size = 5

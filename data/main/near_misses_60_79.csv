@@ -1,0 +1,77 @@
+﻿score,item_a,item_b,query_a,query_b
+76.9,simple_python_36,simple_python_207,Find the shortest driving distance between New York City and Washington D.C.,"Get the shortest driving distance between New York, USA and Miami, USA."
+76.9,simple_python_207,multiple_104,"Get the shortest driving distance between New York, USA and Miami, USA.",Find the shortest driving distance between New York City and Washington D.C.
+72.6,simple_python_364,simple_python_361,Can I find an Italian restaurant with Gluten-free options near Brooklyn?,Find Italian restaurants near New York city that serves gluten-free options.
+72.6,simple_python_274,simple_python_398,Find information about the opening hours of the Metropolitan Museum of Art.,What are the opening hours of the Metropolitan Museum of Art on Saturday?
+72.6,simple_python_274,multiple_194,Find information about the opening hours of the Metropolitan Museum of Art.,What are the opening hours of the Metropolitan Museum of Art on Saturday?
+71.5,simple_python_397,multiple_65,"Find the distance between New York and Boston, accounting for terrain.",Find the distance between New York City and Los Angeles.
+71.5,simple_python_168,multiple_140,"Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California.",Find the lawsuits filed against the company Google in California in the year 2020.
+71.5,multiple_140,multiple_137,Find the lawsuits filed against the company Google in California in the year 2020.,"Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California."
+71.2,simple_python_321,simple_python_317,What's the ranking of Barcelona in the 2021 La Liga season?,Find the ranking of LA Lakers in the NBA 2021 regular season.
+70.2,simple_python_178,simple_python_181,Find details about lawsuit case numbered 'LAX2019080202' in the Los Angeles court.,Get details of a lawsuit with case number '123456-ABC' filed in Los Angeles court with verdict
+69.4,multiple_79,multiple_161,"Find art exhibitions for the upcoming month in the Museum of Modern Art, New York.",Find the top rated modern sculpture exhibition happening in New York in the upcoming month.
+69.3,simple_python_197,simple_python_199,Find the air quality index in San Diego at 12pm.,Find air quality index in San Jose for next three days.
+67.8,simple_python_310,multiple_172,What are the career stats of basketball player LeBron James?,Find me the detailed profile of basketball player Lebron James
+67.7,simple_python_327,simple_python_308,Give me the schedule of Manchester United for the next 6 games in Premier League.,What are the next five matches for Manchester United and who are they playing against in the English Premier League?
+67.7,multiple_176,simple_python_308,Give me the schedule of Manchester United for the next 6 games in Premier League.,What are the next five matches for Manchester United and who are they playing against in the English Premier League?
+67.5,multiple_140,multiple_139,Find the lawsuits filed against the company Google in California in the year 2020.,Find details of patent lawsuits involving the company 'Apple Inc.' from the year 2010.
+66.7,simple_python_91,simple_python_363,"Get the highest rated sushi restaurant in Boston, that opens on Sundays.",Find the closest sushi restaurant with a patio in Boston.
+66.7,multiple_185,simple_python_91,Find the closest sushi restaurant with a patio in Boston.,"Get the highest rated sushi restaurant in Boston, that opens on Sundays."
+66.2,simple_python_36,multiple_65,Find the shortest driving distance between New York City and Washington D.C.,Find the distance between New York City and Los Angeles.
+66.2,multiple_104,multiple_65,Find the shortest driving distance between New York City and Washington D.C.,Find the distance between New York City and Los Angeles.
+65.7,simple_python_330,simple_python_328,What's the average review rating and the age range for the board game 'Catan'?,Find the rating and player count of the board game 'Ticket to Ride'.
+65.1,simple_python_321,simple_python_318,What's the ranking of Barcelona in the 2021 La Liga season?,What is the FIFA ranking of Germany's men soccer team for the year 2021?
+64.9,simple_python_85,simple_python_36,"What's the approximate distance between Boston, MA, and Washington, D.C. in mile?",Find the shortest driving distance between New York City and Washington D.C.
+64.9,simple_python_85,multiple_104,"What's the approximate distance between Boston, MA, and Washington, D.C. in mile?",Find the shortest driving distance between New York City and Washington D.C.
+64.9,simple_python_317,simple_python_309,Find the ranking of LA Lakers in the NBA 2021 regular season.,Find me the record of Tom Brady in the 2020 NFL season.
+64.2,simple_python_146,multiple_55,What's the price of Amazon stock for the last 3 days?,Predict the stock price for Google for the next 3 days.
+64.2,multiple_38,multiple_68,Find a book 'The Alchemist' in the library branches within New York city.,Can I find a historical fiction book at the New York public library?
+64.2,multiple_190,simple_python_385,"Book a single room for two nights at the Hilton Hotel in Chicago, starting from 10th December 2022.","Book a hotel room with king size bed in Los Angeles for 2 nights starting from 15th October,2023."
+63.8,simple_python_327,simple_python_319,Give me the schedule of Manchester United for the next 6 games in Premier League.,What is the ranking of Manchester United in Premier League?
+63.8,simple_python_327,multiple_174,Give me the schedule of Manchester United for the next 6 games in Premier League.,What is the ranking of Manchester United in Premier League?
+63.8,simple_python_284,simple_python_189,Get information about the pop concerts in New York for next month.,"Get weather information for New York, USA for the next 3 days with details."
+63.8,multiple_176,simple_python_319,Give me the schedule of Manchester United for the next 6 games in Premier League.,What is the ranking of Manchester United in Premier League?
+63.8,multiple_176,multiple_174,Give me the schedule of Manchester United for the next 6 games in Premier League.,What is the ranking of Manchester United in Premier League?
+63.6,simple_python_321,simple_python_312,What's the ranking of Barcelona in the 2021 La Liga season?,What are the statistics of Ronaldo's matches in 2021?
+63.5,simple_python_398,multiple_163,What are the opening hours of the Metropolitan Museum of Art on Saturday?,Get the list of top 5 popular artworks at the Metropolitan Museum of Art. Please sort by popularity.
+63.5,simple_python_37,simple_python_81,Find the estimated travel time by car from San Francisco to Los Angeles with stops at Santa Barbara and Monterey.,Find the fastest route from San Francisco to Los Angeles with toll roads avoided.
+63.5,multiple_194,multiple_163,What are the opening hours of the Metropolitan Museum of Art on Saturday?,Get the list of top 5 popular artworks at the Metropolitan Museum of Art. Please sort by popularity.
+63.2,simple_python_310,simple_python_304,What are the career stats of basketball player LeBron James?,Get point and rebound stats for player 'LeBron James' from last basketball game
+63.2,multiple_56,simple_python_78,Find the average closing price of Apple stock in the past 60 days,Get the average temperature in Austin for the next 3 days in Celsius.
+63.2,multiple_56,simple_python_146,Find the average closing price of Apple stock in the past 60 days,What's the price of Amazon stock for the last 3 days?
+62.9,simple_python_356,simple_python_358,"Find me a recipe that serves 2 people, is vegan, and takes under 30 minutes to prepare.",Find a gluten-free cookie recipe that takes less than 30 minutes to prepare.
+62.9,simple_python_310,multiple_23,What are the career stats of basketball player LeBron James?,"What are the current stats for basketball player LeBron James including points per game, assists, and minutes per game."
+62.9,simple_python_284,simple_python_288,Get information about the pop concerts in New York for next month.,Get me two tickets for next Eminem concert in New York City.
+62.5,simple_python_321,simple_python_309,What's the ranking of Barcelona in the 2021 La Liga season?,Find me the record of Tom Brady in the 2020 NFL season.
+62.2,simple_python_252,simple_python_249,Find ten major historical events related to Christianity in the 16th century sort by importance.,Tell me more about Christianity and its history till the 14th century
+61.7,simple_python_206,simple_python_363,Find the nearest park with a tennis court in London.,Find the closest sushi restaurant with a patio in Boston.
+61.7,simple_python_147,multiple_55,Retrieve stock prices of Microsoft and Google for the last 2 weeks.,Predict the stock price for Google for the next 3 days.
+61.7,multiple_185,simple_python_206,Find the closest sushi restaurant with a patio in Boston.,Find the nearest park with a tennis court in London.
+61.5,simple_python_171,simple_python_181,Fetch details of a law case with number 43403 in New York court for year 2018.,Get details of a lawsuit with case number '123456-ABC' filed in Los Angeles court with verdict
+61.4,simple_python_350,simple_python_303,Get the highest scoring player of game 'Valorant' in 2022 season.,Get the player stats of Cristiano Ronaldo in the 2019-2020 season
+61.4,multiple_60,simple_python_78,What will be the humidity and temperature for New York City after 7 days?,Get the average temperature in Austin for the next 3 days in Celsius.
+61.4,multiple_170,simple_python_350,Get the player stats of Cristiano Ronaldo in the 2019-2020 season,Get the highest scoring player of game 'Valorant' in 2022 season.
+61.3,multiple_172,simple_python_55,Find me the detailed profile of basketball player Lebron James,Find me detailed information about the structure of human cell
+61.2,simple_python_386,simple_python_385,"Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022.","Book a hotel room with king size bed in Los Angeles for 2 nights starting from 15th October,2023."
+61.2,multiple_191,simple_python_385,"Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022.","Book a hotel room with king size bed in Los Angeles for 2 nights starting from 15th October,2023."
+61.1,simple_python_169,simple_python_181,Find the details of the court case identified by docket number 123456 in Texas. Don't return full text,Get details of a lawsuit with case number '123456-ABC' filed in Los Angeles court with verdict
+61.1,multiple_23,simple_python_304,"What are the current stats for basketball player LeBron James including points per game, assists, and minutes per game.",Get point and rebound stats for player 'LeBron James' from last basketball game
+61.1,multiple_182,simple_python_328,Find me a multiplayer game with rating above 4.5 and compatible with Windows 10.,Find the rating and player count of the board game 'Ticket to Ride'.
+60.9,simple_python_331,multiple_39,Find the top chess players in New York with a rating above 2300.,Find a ride from New York to Philadelphia with maximum cost of $50
+60.9,multiple_177,multiple_39,Find the top chess players in New York with a rating above 2300.,Find a ride from New York to Philadelphia with maximum cost of $50
+60.8,simple_python_379,simple_python_250,"What's the current time in Sydney, Australia?",What's the time difference between San Francisco and Sydney?
+60.8,multiple_72,simple_python_230,What was the population of California in 1970?,Who was the King of France in 1510?
+60.7,simple_python_325,multiple_65,Who won the last match between Chicago Bulls and Los Angeles Lakers?,Find the distance between New York City and Los Angeles.
+60.6,simple_python_342,multiple_182,Find all multi-player games released in 2019 with an ESRB rating of 'Everyone,Find me a multiplayer game with rating above 4.5 and compatible with Windows 10.
+60.5,multiple_70,simple_python_230,Who were the kings of France during the 18th century?,Who was the King of France in 1510?
+60.3,simple_python_264,simple_python_268,Find the size of the sculpture with title 'David' by Michelangelo.,"Find me the sculptures of Michelangelo with material Marble in Rome, Italy."
+60.3,multiple_155,simple_python_189,Who discovered the neutron? Give me detail information.,"Get weather information for New York, USA for the next 3 days with details."
+60.2,simple_python_331,multiple_38,Find the top chess players in New York with a rating above 2300.,Find a book 'The Alchemist' in the library branches within New York city.
+60.2,simple_python_207,multiple_65,"Get the shortest driving distance between New York, USA and Miami, USA.",Find the distance between New York City and Los Angeles.
+60.2,simple_python_206,simple_python_316,Find the nearest park with a tennis court in London.,"Find the current world rank of a Tennis player, Serena Williams."
+60.2,multiple_177,multiple_38,Find the top chess players in New York with a rating above 2300.,Find a book 'The Alchemist' in the library branches within New York city.
+60.1,simple_python_397,simple_python_36,"Find the distance between New York and Boston, accounting for terrain.",Find the shortest driving distance between New York City and Washington D.C.
+60.1,simple_python_397,multiple_104,"Find the distance between New York and Boston, accounting for terrain.",Find the shortest driving distance between New York City and Washington D.C.
+60.1,simple_python_264,multiple_20,Find the size of the sculpture with title 'David' by Michelangelo.,What is the price to commission a sculpture made of marble with a size of 3 feet?
+60.0,simple_python_321,simple_python_146,What's the ranking of Barcelona in the 2021 La Liga season?,What's the price of Amazon stock for the last 3 days?
+60.0,multiple_73,simple_python_246,Who was the founder of Buddhism and where was it originated?,Who discovered Gravity and what was the method used?

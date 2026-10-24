@@ -2,7 +2,7 @@ You are helping build a research dataset. For each English request below, write 
 
 FORMS:
 1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
-2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling for Bangla words, no diacritics. BUT names of people, places, brands, websites and abbreviations are written in their normal English spelling, as people really type them (Apple Inc, Los Angeles, NBA, Foodnetwork.com), never spelled out phonetically.
 3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
 4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
 
@@ -21,11 +21,8 @@ ITEMS
 
 (batch 01: 40 items)
 
-item_id: simple_python_343
-English: Fetch player statistics of 'Zelda' on Switch for user 'Sam'. | Must keep: game = Zelda; username = Sam; platform = Switch
-
-item_id: multiple_142
-English: What is the humidity level in Miami, Florida in the upcoming 7 days? | Must keep: location = Miami, Florida; days = 7
+item_id: simple_python_289
+English: Find concerts near me in Seattle that plays jazz music. | Must keep: location = Seattle; genre = jazz
 
 item_id: simple_python_163
 English: Provide me with the property records of my house located at 123 main street, with parcel number 1234567890 in Santa Clara county. Include owners information in the response. | Must keep: address = 123 main street; parcel_number = 1234567890; county = Santa Clara
@@ -60,11 +57,11 @@ English: What are the career stats of basketball player LeBron James? | Must kee
 item_id: multiple_178
 English: Find a Card of rank 'Queen' and suit 'Hearts' in the deck. | Must keep: rank = Queen; suit = Hearts
 
-item_id: simple_python_200
-English: How much CO2 is produced annually by a gas-fueled car that travels 12,000 miles per year, with fuel efficiency of 25 MPG ? | Must keep: distance = 12,000; fuel_type = gas
+item_id: simple_python_237
+English: Get historical GDP data for United States from 1960 to 2000. | Must keep: country = United States; start_year = 1960; end_year = 2000
 
-item_id: simple_python_172
-English: How to obtain the detailed case information of the 'R vs Adams' legal case? | Must keep: case_id = R vs Adams
+item_id: simple_python_245
+English: Who discovered radium? | Must keep: element_name = radium
 
 item_id: multiple_166
 English: Find me a classical concert this weekend in Los Angeles with cheap tickets. | Must keep: genre = classical; location = Los Angeles; date = this weekend; price_range = cheap
@@ -84,8 +81,8 @@ English: What's the timing and location for The Weeknd's concert happening in De
 item_id: multiple_22
 English: What is the record for the most points scored by a single player in an NBA game? | Must keep: league = NBA
 
-item_id: simple_python_355
-English: How many calories in the Beef Lasagna Recipe from Foodnetwork.com? | Must keep: website = Foodnetwork.com; recipe = Beef Lasagna
+item_id: simple_python_324
+English: Find the score of last game for Los Angeles Lakers including its opponent name. | Must keep: team = Los Angeles Lakers
 
 item_id: multiple_183
 English: How many calories in the Beef Lasagna Recipe from Foodnetwork.com? | Must keep: website = Foodnetwork.com; recipe = Beef Lasagna Recipe
@@ -140,3 +137,6 @@ English: Find me the detailed profile of basketball player Lebron James | Must k
 
 item_id: simple_python_321
 English: What's the ranking of Barcelona in the 2021 La Liga season? | Must keep: team = Barcelona; league = La Liga; season = 2021
+
+item_id: simple_python_78
+English: Get the average temperature in Austin for the next 3 days in Celsius. | Must keep: location = Austin; days = 3; temp_unit = Celsius

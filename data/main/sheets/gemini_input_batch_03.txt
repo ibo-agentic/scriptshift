@@ -2,7 +2,7 @@ You are helping build a research dataset. For each English request below, write 
 
 FORMS:
 1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
-2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling for Bangla words, no diacritics. BUT names of people, places, brands, websites and abbreviations are written in their normal English spelling, as people really type them (Apple Inc, Los Angeles, NBA, Foodnetwork.com), never spelled out phonetically.
 3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
 4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
 
@@ -21,20 +21,11 @@ ITEMS
 
 (batch 03: 40 items)
 
-item_id: simple_python_356
-English: Find me a recipe that serves 2 people, is vegan, and takes under 30 minutes to prepare. | Must keep: servings = 2; diet = vegan; prep_time = 30
-
-item_id: multiple_19
-English: What are the three great Schism in Christianity history? | Must keep: religion = Christianity; count = three
-
-item_id: simple_python_399
-English: Find me the best Italian restaurants in New York City with average customer ratings of more than 4 and accepts credit cards. | Must keep: location = New York City; cuisine = Italian; rating = 4
-
 item_id: multiple_162
 English: What is the structural dynamic analysis of the building with building Id B1004 for 2nd, 3rd and 4th floors? | Must keep: building_id = B1004; floors = 2, 3, 4; mode = dynamic
 
-item_id: simple_python_287
-English: Find me a classical concert this weekend in Los Angeles with cheap tickets. | Must keep: genre = classical; location = Los Angeles; date = this weekend; price_range = cheap
+item_id: simple_python_86
+English: Find the shortest distance between two cities, New York and Los Angeles, through the train and you can transfer. | Must keep: start_city = New York; end_city = Los Angeles; transportation = train
 
 item_id: multiple_177
 English: Find the top chess players in New York with a rating above 2300. | Must keep: location = New York; minimum_rating = 2300
@@ -48,8 +39,8 @@ English: Calculate the molecular weight of Glucose (C6H12O6) in grams/mole. | Mu
 item_id: multiple_67
 English: Translate Hello, how are you? from English to French. | Must keep: text = Hello, how are you?; source_language = English; target_language = French
 
-item_id: simple_python_386
-English: Book a luxury room in Hotel Paradise, Las Vegas, with a city view for 3 days starting from May 12, 2022. | Must keep: hotel_name = Hotel Paradise; location = Las Vegas; room_type = luxury; start_date = May 12, 2022; stay_duration = 3; view = city view
+item_id: simple_python_125
+English: Predict house price in San Francisco based on its area of 2500 square feet, number of rooms as 5 and year of construction is 1990. | Must keep: area = 2500; rooms = 5; year = 1990; location = San Francisco
 
 item_id: multiple_52
 English: I have 100 euro. How much is it in USD? | Must keep: amount = 100; from_currency = euro; to_currency = USD
@@ -69,8 +60,8 @@ English: Find state law cases related to land disputes in the past 5 years from 
 item_id: multiple_26
 English: Find out the rewards for playing Fortnite on Playstation platform with different missions and trophies | Must keep: game = Fortnite; platform = Playstation
 
-item_id: simple_python_168
-English: Search for ongoing lawsuits related to the company 'Google' filed after January 1, 2021 in California. | Must keep: company = Google; start_date = January 1, 2021; location = California
+item_id: simple_python_396
+English: Find a hospital within 5 km radius around Denver, Colorado with pediatrics department. | Must keep: location = Denver, Colorado; radius = 5; department = pediatrics
 
 item_id: multiple_25
 English: What is the cheapest selling price for the game 'Assassins Creed Valhalla' in the PlayStation Store in the United States? | Must keep: game_title = Assassins Creed Valhalla; platform = PlayStation
@@ -84,8 +75,8 @@ English: Find information about the opening hours of the Metropolitan Museum of 
 item_id: multiple_94
 English: I want to book a suite with queen size bed for 3 nights in Hilton New York. Can you find the pricing for me? | Must keep: hotelName = Hilton New York; roomType = suite with queen size bed; nights = 3
 
-item_id: simple_python_371
-English: Check the price of tomatoes and lettuce at the Whole Foods in Los Angeles. | Must keep: location = Los Angeles; items = tomatoes, lettuce
+item_id: simple_python_354
+English: Find a vegan soup recipe that takes under 30 minutes to make. | Must keep: dish_type = soup; cooking_time = 30
 
 item_id: multiple_112
 English: Predict the growth of forest in Yellowstone National Park for the next 5 years including human impact. | Must keep: location = Yellowstone National Park; years = 5
@@ -140,3 +131,12 @@ English: Find me a multiplayer game with rating above 4.5 and compatible with Wi
 
 item_id: simple_python_182
 English: Retrieve all the lawsuit details for case number XYZ123. | Must keep: case_number = XYZ123
+
+item_id: simple_python_266
+English: What is the value of the sculpture 'The Thinker' by Rodin? | Must keep: sculpture = The Thinker; artist = Rodin
+
+item_id: multiple_71
+English: How many veterans were there in the United States in the year 1954? | Must keep: year = 1954; category = veterans
+
+item_id: simple_python_380
+English: Book a single room at a pet friendly hotel near Manhattan, New York for 3 nights starting from March 10th, 2023. | Must keep: location = Manhattan, New York; room_type = single; duration = 3; start_date = March 10th, 2023; preferences = pet friendly

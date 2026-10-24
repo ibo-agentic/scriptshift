@@ -2,7 +2,7 @@ You are helping build a research dataset. For each English request below, write 
 
 FORMS:
 1. bn_native: Natural everyday Bangla in Bangla script, the way a person would really ask an assistant (not bookish). Write ALL names in Bangla script too (টোকিও, not Tokyo).
-2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling, no diacritics. Same words as bn_native.
+2. bn_roman: The bn_native sentence written word for word in English letters, the way a young Bangladeshi types on WhatsApp/Messenger. Casual phonetic spelling for Bangla words, no diacritics. BUT names of people, places, brands, websites and abbreviations are written in their normal English spelling, as people really type them (Apple Inc, Los Angeles, NBA, Foodnetwork.com), never spelled out phonetically.
 3. bn_mixed: Natural Banglish chat: Bangla grammar in English letters, with English words where a Bangladeshi would really use them.
 4. bn_partial: Same as bn_native, but the "Must keep" values written in English letters exactly as they appear in the English request.
 
